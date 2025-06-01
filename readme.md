@@ -7,6 +7,13 @@ Until then, it can be sideloaded via USB cable to the watch.
 
 True Spaghetti Coding INC.!
 
+<h2>Manual:</h2>
+Start the app and it shows the Autopilot status<be>
+down button - turns AP on in all views<be>
+up button - turns AP off in all views<be>
+hold the up button (menu) to select different views<br>
+goto setup and set the IP address (start button next segment - up/down increase number - auto save when leaving the setup screen)<br>
+
 
 
 The structure of the program should be as following.
