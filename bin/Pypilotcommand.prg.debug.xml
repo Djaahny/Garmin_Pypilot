@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="3" lineNum="9" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="19" lineNum="4" parent="globals/VersionView" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="20" lineNum="7" parent="globals/PypilotcommandDelegate" pc="268435498" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="20" lineNum="9" parent="globals/PypilotcommandDelegate" pc="268435509" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="21" lineNum="7" parent="globals/Rez" pc="268435539" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="22" lineNum="4" parent="globals/engineView" pc="268435559" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="23" lineNum="4" parent="globals/speedView" pc="268435571" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="24" lineNum="9" parent="globals/GPSView" pc="268435583" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="85" parent="globals" pc="268435595" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="86" parent="globals" pc="268435606" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="87" parent="globals" pc="268435630" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="88" parent="globals" pc="268435655" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="89" parent="globals" pc="268435680" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="90" parent="globals" pc="268435705" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="91" parent="globals" pc="268435716" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="25" lineNum="92" parent="globals" pc="268435728" symbol="loadip"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="26" lineNum="7" parent="globals/PypilotcommandMenuDelegate" pc="268435753" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="27" lineNum="7" parent="globals/speedDelegate" pc="268435765" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="27" lineNum="9" parent="globals/speedDelegate" pc="268435776" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="28" lineNum="12" parent="globals/SetupDelegate" pc="268435806" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="29" lineNum="4" parent="globals/waterView" pc="268435818" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="30" lineNum="81" parent="globals" pc="268435830" symbol="getApp"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="30" lineNum="82" parent="globals" pc="268435840" symbol="getApp"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="37" parent="globals" pc="268435851" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="38" parent="globals" pc="268435862" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="39" parent="globals" pc="268435878" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="40" parent="globals" pc="268435903" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="41" parent="globals" pc="268435909" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="42" parent="globals" pc="268435915" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="43" parent="globals" pc="268435928" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="44" parent="globals" pc="268435944" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="47" parent="globals" pc="268435962" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="31" lineNum="48" parent="globals" pc="268435978" symbol="drawStatus"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="32" lineNum="53" parent="globals/PypilotcommandApp" pc="268435998" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="33" lineNum="4" parent="globals/screen2View" pc="268436010" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="16" parent="globals" pc="268436022" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="17" parent="globals" pc="268436033" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="18" parent="globals" pc="268436037" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="20" parent="globals" pc="268436041" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="21" parent="globals" pc="268436054" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="22" parent="globals" pc="268436060" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="23" parent="globals" pc="268436082" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="24" parent="globals" pc="268436104" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="28" parent="globals" pc="268436120" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="34" lineNum="30" parent="globals" pc="268436132" symbol="splitString"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="35" lineNum="11" parent="globals/SetupView" pc="268436135" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="36" lineNum="4" parent="globals/windView" pc="268436147" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="37" lineNum="7" parent="globals/genericDelegate" pc="268436159" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="37" lineNum="9" parent="globals/genericDelegate" pc="268436170" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="38" lineNum="4" parent="globals/PypilotcommandView" pc="268436200" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="39" lineNum="33" parent="globals" pc="268436212" symbol="updateURL"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="39" lineNum="34" parent="globals" pc="268436222" symbol="updateURL"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="40" lineNum="5" parent="globals/webReturnView" pc="268436318" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="42" lineNum="11" parent="globals/VersionView" pc="268436330" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="42" lineNum="12" parent="globals/VersionView" pc="268436332" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="43" lineNum="5" parent="globals/VersionView" pc="268436366" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="43" lineNum="6" parent="globals/VersionView" pc="268436368" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="45" lineNum="22" parent="globals/VersionView" pc="268436381" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/VersionView.mc" id="45" lineNum="24" parent="globals/VersionView" pc="268436383" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="46" lineNum="26" parent="globals/PypilotcommandDelegate" pc="268436400" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="46" lineNum="27" parent="globals/PypilotcommandDelegate" pc="268436402" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="46" lineNum="28" parent="globals/PypilotcommandDelegate" pc="268436414" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="46" lineNum="29" parent="globals/PypilotcommandDelegate" pc="268436483" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="47" lineNum="22" parent="globals/PypilotcommandDelegate" pc="268436485" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="47" lineNum="23" parent="globals/PypilotcommandDelegate" pc="268436487" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="11" parent="globals/PypilotcommandDelegate" pc="268436500" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="12" parent="globals/PypilotcommandDelegate" pc="268436502" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="13" parent="globals/PypilotcommandDelegate" pc="268436517" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="14" parent="globals/PypilotcommandDelegate" pc="268436528" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="15" parent="globals/PypilotcommandDelegate" pc="268436540" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="17" parent="globals/PypilotcommandDelegate" pc="268436551" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="48" lineNum="18" parent="globals/PypilotcommandDelegate" pc="268436563" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="32" parent="globals/PypilotcommandDelegate" pc="268436583" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="33" parent="globals/PypilotcommandDelegate" pc="268436585" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="35" parent="globals/PypilotcommandDelegate" pc="268436605" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="36" parent="globals/PypilotcommandDelegate" pc="268436618" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="37" parent="globals/PypilotcommandDelegate" pc="268436630" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="39" parent="globals/PypilotcommandDelegate" pc="268436652" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="40" parent="globals/PypilotcommandDelegate" pc="268436665" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="41" parent="globals/PypilotcommandDelegate" pc="268436677" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="43" parent="globals/PypilotcommandDelegate" pc="268436699" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="44" parent="globals/PypilotcommandDelegate" pc="268436712" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandDelegate.mc" id="49" lineNum="46" parent="globals/PypilotcommandDelegate" pc="268436746" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="51" lineNum="10" parent="globals/engineView" pc="268436748" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="51" lineNum="11" parent="globals/engineView" pc="268436750" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="52" lineNum="5" parent="globals/engineView" pc="268436784" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="52" lineNum="6" parent="globals/engineView" pc="268436786" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="21" parent="globals/engineView" pc="268436799" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="22" parent="globals/engineView" pc="268436802" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="23" parent="globals/engineView" pc="268436825" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="24" parent="globals/engineView" pc="268436835" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="25" parent="globals/engineView" pc="268436851" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="29" parent="globals/engineView" pc="268436855" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="30" parent="globals/engineView" pc="268436868" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="31" parent="globals/engineView" pc="268436893" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="32" parent="globals/engineView" pc="268436899" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="33" parent="globals/engineView" pc="268436906" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="34" parent="globals/engineView" pc="268436913" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="36" parent="globals/engineView" pc="268436920" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="37" parent="globals/engineView" pc="268436940" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="38" parent="globals/engineView" pc="268436960" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="39" parent="globals/engineView" pc="268436980" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="41" parent="globals/engineView" pc="268437000" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="42" parent="globals/engineView" pc="268437006" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="43" parent="globals/engineView" pc="268437019" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="44" parent="globals/engineView" pc="268437035" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="47" parent="globals/engineView" pc="268437053" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="48" parent="globals/engineView" pc="268437069" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="50" parent="globals/engineView" pc="268437085" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="51" parent="globals/engineView" pc="268437097" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="52" parent="globals/engineView" pc="268437109" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/engineView.mc" id="54" lineNum="55" parent="globals/engineView" pc="268437127" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="17" parent="globals/WebRequest" pc="268437144" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="19" parent="globals/WebRequest" pc="268437146" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="20" parent="globals/WebRequest" pc="268437155" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="21" parent="globals/WebRequest" pc="268437173" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="22" parent="globals/WebRequest" pc="268437182" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="26" parent="globals/WebRequest" pc="268437203" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="27" parent="globals/WebRequest" pc="268437224" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="31" parent="globals/WebRequest" pc="268437236" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="56" lineNum="32" parent="globals/WebRequest" pc="268437244" symbol="onReceive"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="39" parent="globals/WebRequest" pc="268437256" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="40" parent="globals/WebRequest" pc="268437259" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="41" parent="globals/WebRequest" pc="268437267" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="44" parent="globals/WebRequest" pc="268437282" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="52" parent="globals/WebRequest" pc="268437289" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="55" parent="globals/WebRequest" pc="268437304" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/CallTCP.mc" id="57" lineNum="56" parent="globals/WebRequest" pc="268437328" symbol="makeRequest"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="59" lineNum="11" parent="globals/speedView" pc="268437353" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="59" lineNum="12" parent="globals/speedView" pc="268437355" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="60" lineNum="5" parent="globals/speedView" pc="268437389" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="60" lineNum="6" parent="globals/speedView" pc="268437391" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="22" parent="globals/speedView" pc="268437404" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="23" parent="globals/speedView" pc="268437407" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="24" parent="globals/speedView" pc="268437430" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="25" parent="globals/speedView" pc="268437440" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="26" parent="globals/speedView" pc="268437456" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="29" parent="globals/speedView" pc="268437460" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="30" parent="globals/speedView" pc="268437473" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="31" parent="globals/speedView" pc="268437498" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="32" parent="globals/speedView" pc="268437504" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="33" parent="globals/speedView" pc="268437511" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="34" parent="globals/speedView" pc="268437518" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="37" parent="globals/speedView" pc="268437525" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="38" parent="globals/speedView" pc="268437545" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="39" parent="globals/speedView" pc="268437565" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="40" parent="globals/speedView" pc="268437585" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="42" parent="globals/speedView" pc="268437605" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="43" parent="globals/speedView" pc="268437611" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="44" parent="globals/speedView" pc="268437624" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="45" parent="globals/speedView" pc="268437640" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="48" parent="globals/speedView" pc="268437658" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="49" parent="globals/speedView" pc="268437674" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="52" parent="globals/speedView" pc="268437690" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="53" parent="globals/speedView" pc="268437702" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="54" parent="globals/speedView" pc="268437720" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedView.mc" id="62" lineNum="57" parent="globals/speedView" pc="268437738" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="64" lineNum="18" parent="globals/GPSView" pc="268437755" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="64" lineNum="19" parent="globals/GPSView" pc="268437757" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="64" lineNum="20" parent="globals/GPSView" pc="268437790" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="65" lineNum="13" parent="globals/GPSView" pc="268437816" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="65" lineNum="14" parent="globals/GPSView" pc="268437818" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="30" parent="globals/GPSView" pc="268437831" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="32" parent="globals/GPSView" pc="268437834" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="33" parent="globals/GPSView" pc="268437846" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="34" parent="globals/GPSView" pc="268437931" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="35" parent="globals/GPSView" pc="268437950" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="36" parent="globals/GPSView" pc="268437965" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="37" parent="globals/GPSView" pc="268438001" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="39" parent="globals/GPSView" pc="268438019" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/GPSView.mc" id="67" lineNum="41" parent="globals/GPSView" pc="268438035" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="13" parent="globals/PypilotcommandMenuDelegate" pc="268438047" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="14" parent="globals/PypilotcommandMenuDelegate" pc="268438049" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="15" parent="globals/PypilotcommandMenuDelegate" pc="268438064" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="16" parent="globals/PypilotcommandMenuDelegate" pc="268438075" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="17" parent="globals/PypilotcommandMenuDelegate" pc="268438087" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="19" parent="globals/PypilotcommandMenuDelegate" pc="268438149" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="20" parent="globals/PypilotcommandMenuDelegate" pc="268438160" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="21" parent="globals/PypilotcommandMenuDelegate" pc="268438172" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="22" parent="globals/PypilotcommandMenuDelegate" pc="268438184" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="23" parent="globals/PypilotcommandMenuDelegate" pc="268438203" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="25" parent="globals/PypilotcommandMenuDelegate" pc="268438265" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="26" parent="globals/PypilotcommandMenuDelegate" pc="268438276" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="27" parent="globals/PypilotcommandMenuDelegate" pc="268438288" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="28" parent="globals/PypilotcommandMenuDelegate" pc="268438300" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="29" parent="globals/PypilotcommandMenuDelegate" pc="268438319" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="31" parent="globals/PypilotcommandMenuDelegate" pc="268438381" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="32" parent="globals/PypilotcommandMenuDelegate" pc="268438392" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="33" parent="globals/PypilotcommandMenuDelegate" pc="268438404" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="34" parent="globals/PypilotcommandMenuDelegate" pc="268438416" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="35" parent="globals/PypilotcommandMenuDelegate" pc="268438435" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="37" parent="globals/PypilotcommandMenuDelegate" pc="268438497" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="38" parent="globals/PypilotcommandMenuDelegate" pc="268438508" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="39" parent="globals/PypilotcommandMenuDelegate" pc="268438520" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="40" parent="globals/PypilotcommandMenuDelegate" pc="268438532" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="41" parent="globals/PypilotcommandMenuDelegate" pc="268438551" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="43" parent="globals/PypilotcommandMenuDelegate" pc="268438613" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="44" parent="globals/PypilotcommandMenuDelegate" pc="268438624" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="45" parent="globals/PypilotcommandMenuDelegate" pc="268438636" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="47" parent="globals/PypilotcommandMenuDelegate" pc="268438698" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="48" parent="globals/PypilotcommandMenuDelegate" pc="268438709" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="49" parent="globals/PypilotcommandMenuDelegate" pc="268438721" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="51" parent="globals/PypilotcommandMenuDelegate" pc="268438783" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="52" parent="globals/PypilotcommandMenuDelegate" pc="268438794" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="68" lineNum="53" parent="globals/PypilotcommandMenuDelegate" pc="268438806" symbol="onMenuItem"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="69" lineNum="9" parent="globals/PypilotcommandMenuDelegate" pc="268438869" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" id="69" lineNum="10" parent="globals/PypilotcommandMenuDelegate" pc="268438871" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="70" lineNum="26" parent="globals/speedDelegate" pc="268438884" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="70" lineNum="27" parent="globals/speedDelegate" pc="268438886" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="70" lineNum="28" parent="globals/speedDelegate" pc="268438898" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="70" lineNum="29" parent="globals/speedDelegate" pc="268438967" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="71" lineNum="22" parent="globals/speedDelegate" pc="268438969" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="71" lineNum="23" parent="globals/speedDelegate" pc="268438971" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="11" parent="globals/speedDelegate" pc="268438984" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="12" parent="globals/speedDelegate" pc="268438986" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="13" parent="globals/speedDelegate" pc="268439001" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="14" parent="globals/speedDelegate" pc="268439012" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="15" parent="globals/speedDelegate" pc="268439024" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="17" parent="globals/speedDelegate" pc="268439035" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="72" lineNum="18" parent="globals/speedDelegate" pc="268439047" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="73" lineNum="32" parent="globals/speedDelegate" pc="268439067" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="73" lineNum="33" parent="globals/speedDelegate" pc="268439069" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="73" lineNum="41" parent="globals/speedDelegate" pc="268439089" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="73" lineNum="42" parent="globals/speedDelegate" pc="268439102" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" id="73" lineNum="44" parent="globals/speedDelegate" pc="268439136" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="74" lineNum="21" parent="globals/SetupDelegate" pc="268439138" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="74" lineNum="22" parent="globals/SetupDelegate" pc="268439140" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="74" lineNum="23" parent="globals/SetupDelegate" pc="268439209" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="75" lineNum="17" parent="globals/SetupDelegate" pc="268439211" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="75" lineNum="18" parent="globals/SetupDelegate" pc="268439213" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="26" parent="globals/SetupDelegate" pc="268439226" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="27" parent="globals/SetupDelegate" pc="268439228" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="28" parent="globals/SetupDelegate" pc="268439241" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="29" parent="globals/SetupDelegate" pc="268439257" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="31" parent="globals/SetupDelegate" pc="268439285" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="34" parent="globals/SetupDelegate" pc="268439299" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="35" parent="globals/SetupDelegate" pc="268439312" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="36" parent="globals/SetupDelegate" pc="268439330" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="38" parent="globals/SetupDelegate" pc="268439358" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="41" parent="globals/SetupDelegate" pc="268439372" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="43" parent="globals/SetupDelegate" pc="268439388" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="44" parent="globals/SetupDelegate" pc="268439401" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="45" parent="globals/SetupDelegate" pc="268439412" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="48" parent="globals/SetupDelegate" pc="268439430" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="50" parent="globals/SetupDelegate" pc="268439438" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupDelegate.mc" id="76" lineNum="53" parent="globals/SetupDelegate" pc="268439452" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="78" lineNum="11" parent="globals/waterView" pc="268439454" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="78" lineNum="12" parent="globals/waterView" pc="268439456" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="79" lineNum="6" parent="globals/waterView" pc="268439490" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="79" lineNum="7" parent="globals/waterView" pc="268439492" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="22" parent="globals/waterView" pc="268439505" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="23" parent="globals/waterView" pc="268439508" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="24" parent="globals/waterView" pc="268439531" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="25" parent="globals/waterView" pc="268439541" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="26" parent="globals/waterView" pc="268439557" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="29" parent="globals/waterView" pc="268439561" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="30" parent="globals/waterView" pc="268439574" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="31" parent="globals/waterView" pc="268439599" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="32" parent="globals/waterView" pc="268439605" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="35" parent="globals/waterView" pc="268439612" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="36" parent="globals/waterView" pc="268439632" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="38" parent="globals/waterView" pc="268439652" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="39" parent="globals/waterView" pc="268439658" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="40" parent="globals/waterView" pc="268439671" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="41" parent="globals/waterView" pc="268439687" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="44" parent="globals/waterView" pc="268439705" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="45" parent="globals/waterView" pc="268439721" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="47" parent="globals/waterView" pc="268439737" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/waterView.mc" id="81" lineNum="51" parent="globals/waterView" pc="268439761" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="82" lineNum="60" parent="globals/PypilotcommandApp" pc="268439778" symbol="onStart"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="82" lineNum="61" parent="globals/PypilotcommandApp" pc="268439780" symbol="onStart"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="82" lineNum="64" parent="globals/PypilotcommandApp" pc="268439787" symbol="onStart"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="83" lineNum="73" parent="globals/PypilotcommandApp" pc="268439795" symbol="getInitialView"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="83" lineNum="75" parent="globals/PypilotcommandApp" pc="268439797" symbol="getInitialView"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="84" lineNum="55" parent="globals/PypilotcommandApp" pc="268439852" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="84" lineNum="56" parent="globals/PypilotcommandApp" pc="268439854" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandApp.mc" id="85" lineNum="69" parent="globals/PypilotcommandApp" pc="268439867" symbol="onStop"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="87" lineNum="16" parent="globals/screen2View" pc="268439870" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="87" lineNum="17" parent="globals/screen2View" pc="268439873" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="87" lineNum="18" parent="globals/screen2View" pc="268439906" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="87" lineNum="19" parent="globals/screen2View" pc="268439926" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="87" lineNum="20" parent="globals/screen2View" pc="268439932" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="88" lineNum="9" parent="globals/screen2View" pc="268439952" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="88" lineNum="10" parent="globals/screen2View" pc="268439954" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="88" lineNum="11" parent="globals/screen2View" pc="268439966" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="88" lineNum="12" parent="globals/screen2View" pc="268439975" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="31" parent="globals/screen2View" pc="268439991" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="33" parent="globals/screen2View" pc="268439994" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="34" parent="globals/screen2View" pc="268440007" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="35" parent="globals/screen2View" pc="268440027" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="36" parent="globals/screen2View" pc="268440033" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/screen2View.mc" id="90" lineNum="39" parent="globals/screen2View" pc="268440060" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="91" lineNum="24" parent="globals/SetupView" pc="268440077" symbol="onShow"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="91" lineNum="25" parent="globals/SetupView" pc="268440079" symbol="onShow"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="92" lineNum="17" parent="globals/SetupView" pc="268440087" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="92" lineNum="18" parent="globals/SetupView" pc="268440089" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="50" parent="globals/SetupView" pc="268440123" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="51" parent="globals/SetupView" pc="268440126" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="52" parent="globals/SetupView" pc="268440146" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="53" parent="globals/SetupView" pc="268440152" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="54" parent="globals/SetupView" pc="268440176" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="55" parent="globals/SetupView" pc="268440186" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="56" parent="globals/SetupView" pc="268440201" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="57" parent="globals/SetupView" pc="268440221" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="60" parent="globals/SetupView" pc="268440242" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="61" parent="globals/SetupView" pc="268440262" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="62" parent="globals/SetupView" pc="268440268" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="63" parent="globals/SetupView" pc="268440293" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="64" parent="globals/SetupView" pc="268440304" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="65" parent="globals/SetupView" pc="268440319" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="66" parent="globals/SetupView" pc="268440339" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="69" parent="globals/SetupView" pc="268440360" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="70" parent="globals/SetupView" pc="268440380" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="71" parent="globals/SetupView" pc="268440386" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="72" parent="globals/SetupView" pc="268440411" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="73" parent="globals/SetupView" pc="268440422" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="74" parent="globals/SetupView" pc="268440437" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="75" parent="globals/SetupView" pc="268440457" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="78" parent="globals/SetupView" pc="268440478" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="79" parent="globals/SetupView" pc="268440498" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="80" parent="globals/SetupView" pc="268440504" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="81" parent="globals/SetupView" pc="268440529" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="82" parent="globals/SetupView" pc="268440540" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="83" parent="globals/SetupView" pc="268440555" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="93" lineNum="84" parent="globals/SetupView" pc="268440575" symbol="printIP"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="94" lineNum="13" parent="globals/SetupView" pc="268440597" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="94" lineNum="14" parent="globals/SetupView" pc="268440599" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="41" parent="globals/SetupView" pc="268440612" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="42" parent="globals/SetupView" pc="268440614" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="43" parent="globals/SetupView" pc="268440645" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="44" parent="globals/SetupView" pc="268440677" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="45" parent="globals/SetupView" pc="268440709" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="95" lineNum="46" parent="globals/SetupView" pc="268440741" symbol="onHide"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="96" lineNum="30" parent="globals/SetupView" pc="268440749" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="96" lineNum="32" parent="globals/SetupView" pc="268440751" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/SetupView.mc" id="96" lineNum="33" parent="globals/SetupView" pc="268440758" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="98" lineNum="12" parent="globals/windView" pc="268440775" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="98" lineNum="13" parent="globals/windView" pc="268440777" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="99" lineNum="6" parent="globals/windView" pc="268440811" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="99" lineNum="7" parent="globals/windView" pc="268440813" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="23" parent="globals/windView" pc="268440826" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="24" parent="globals/windView" pc="268440829" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="25" parent="globals/windView" pc="268440852" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="26" parent="globals/windView" pc="268440862" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="27" parent="globals/windView" pc="268440878" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="30" parent="globals/windView" pc="268440882" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="31" parent="globals/windView" pc="268440895" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="32" parent="globals/windView" pc="268440920" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="33" parent="globals/windView" pc="268440926" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="34" parent="globals/windView" pc="268440933" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="35" parent="globals/windView" pc="268440940" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="37" parent="globals/windView" pc="268440947" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="38" parent="globals/windView" pc="268440967" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="39" parent="globals/windView" pc="268440987" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="40" parent="globals/windView" pc="268441007" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="42" parent="globals/windView" pc="268441027" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="43" parent="globals/windView" pc="268441033" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="44" parent="globals/windView" pc="268441046" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="45" parent="globals/windView" pc="268441062" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="48" parent="globals/windView" pc="268441080" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="49" parent="globals/windView" pc="268441096" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="51" parent="globals/windView" pc="268441112" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="52" parent="globals/windView" pc="268441124" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="53" parent="globals/windView" pc="268441142" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/windView.mc" id="101" lineNum="56" parent="globals/windView" pc="268441160" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="102" lineNum="44" parent="globals/genericDelegate" pc="268441177" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="102" lineNum="45" parent="globals/genericDelegate" pc="268441179" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="102" lineNum="46" parent="globals/genericDelegate" pc="268441191" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="102" lineNum="47" parent="globals/genericDelegate" pc="268441260" symbol="onMenu"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="103" lineNum="40" parent="globals/genericDelegate" pc="268441262" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="103" lineNum="41" parent="globals/genericDelegate" pc="268441264" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="11" parent="globals/genericDelegate" pc="268441277" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="12" parent="globals/genericDelegate" pc="268441279" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="13" parent="globals/genericDelegate" pc="268441294" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="14" parent="globals/genericDelegate" pc="268441305" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="15" parent="globals/genericDelegate" pc="268441317" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="17" parent="globals/genericDelegate" pc="268441328" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="18" parent="globals/genericDelegate" pc="268441351" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="19" parent="globals/genericDelegate" pc="268441363" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="21" parent="globals/genericDelegate" pc="268441385" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="22" parent="globals/genericDelegate" pc="268441408" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="23" parent="globals/genericDelegate" pc="268441420" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="25" parent="globals/genericDelegate" pc="268441442" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="26" parent="globals/genericDelegate" pc="268441465" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="27" parent="globals/genericDelegate" pc="268441477" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="29" parent="globals/genericDelegate" pc="268441499" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="30" parent="globals/genericDelegate" pc="268441522" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="31" parent="globals/genericDelegate" pc="268441534" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="33" parent="globals/genericDelegate" pc="268441556" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="34" parent="globals/genericDelegate" pc="268441579" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="104" lineNum="35" parent="globals/genericDelegate" pc="268441591" symbol="timerCallback"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="50" parent="globals/genericDelegate" pc="268441614" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="51" parent="globals/genericDelegate" pc="268441616" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="53" parent="globals/genericDelegate" pc="268441636" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="54" parent="globals/genericDelegate" pc="268441649" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="55" parent="globals/genericDelegate" pc="268441661" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="57" parent="globals/genericDelegate" pc="268441683" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="58" parent="globals/genericDelegate" pc="268441696" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="59" parent="globals/genericDelegate" pc="268441708" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="61" parent="globals/genericDelegate" pc="268441730" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="62" parent="globals/genericDelegate" pc="268441743" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/genericDelegate.mc" id="105" lineNum="64" parent="globals/genericDelegate" pc="268441777" symbol="onKey"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="106" lineNum="18" parent="globals/PypilotcommandView" pc="268441779" symbol="onShow"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="106" lineNum="19" parent="globals/PypilotcommandView" pc="268441781" symbol="onShow"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="106" lineNum="20" parent="globals/PypilotcommandView" pc="268441793" symbol="onShow"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="107" lineNum="11" parent="globals/PypilotcommandView" pc="268441813" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="107" lineNum="12" parent="globals/PypilotcommandView" pc="268441815" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="108" lineNum="6" parent="globals/PypilotcommandView" pc="268441849" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="108" lineNum="7" parent="globals/PypilotcommandView" pc="268441851" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="25" parent="globals/PypilotcommandView" pc="268441864" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="27" parent="globals/PypilotcommandView" pc="268441867" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="28" parent="globals/PypilotcommandView" pc="268441890" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="29" parent="globals/PypilotcommandView" pc="268441900" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="30" parent="globals/PypilotcommandView" pc="268441916" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="33" parent="globals/PypilotcommandView" pc="268441920" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="34" parent="globals/PypilotcommandView" pc="268441933" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="35" parent="globals/PypilotcommandView" pc="268441958" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="36" parent="globals/PypilotcommandView" pc="268441964" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="37" parent="globals/PypilotcommandView" pc="268441971" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="39" parent="globals/PypilotcommandView" pc="268441978" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="40" parent="globals/PypilotcommandView" pc="268441998" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="41" parent="globals/PypilotcommandView" pc="268442018" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="43" parent="globals/PypilotcommandView" pc="268442038" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="44" parent="globals/PypilotcommandView" pc="268442044" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="45" parent="globals/PypilotcommandView" pc="268442057" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="46" parent="globals/PypilotcommandView" pc="268442073" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="47" parent="globals/PypilotcommandView" pc="268442088" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="50" parent="globals/PypilotcommandView" pc="268442109" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="51" parent="globals/PypilotcommandView" pc="268442125" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="52" parent="globals/PypilotcommandView" pc="268442141" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="54" parent="globals/PypilotcommandView" pc="268442156" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandView.mc" id="110" lineNum="57" parent="globals/PypilotcommandView" pc="268442180" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="112" lineNum="17" parent="globals/webReturnView" pc="268442197" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="112" lineNum="18" parent="globals/webReturnView" pc="268442200" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="112" lineNum="19" parent="globals/webReturnView" pc="268442233" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="112" lineNum="20" parent="globals/webReturnView" pc="268442253" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="112" lineNum="21" parent="globals/webReturnView" pc="268442259" symbol="onLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="113" lineNum="10" parent="globals/webReturnView" pc="268442279" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="113" lineNum="11" parent="globals/webReturnView" pc="268442281" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="113" lineNum="12" parent="globals/webReturnView" pc="268442293" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="113" lineNum="13" parent="globals/webReturnView" pc="268442302" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="115" lineNum="33" parent="globals/webReturnView" pc="268442318" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" id="115" lineNum="35" parent="globals/webReturnView" pc="268442320" symbol="onUpdate"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="127" parent="globals/Rez/Layouts" pc="268442337" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="128" parent="globals/Rez/Layouts" pc="268442348" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="130" parent="globals/Rez/Layouts" pc="268442434" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="132" parent="globals/Rez/Layouts" pc="268442528" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="134" parent="globals/Rez/Layouts" pc="268442622" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="136" parent="globals/Rez/Layouts" pc="268442717" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="116" lineNum="138" parent="globals/Rez/Layouts" pc="268442812" symbol="SetupLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="117" lineNum="107" parent="globals/Rez/Layouts" pc="268442842" symbol="VersionLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="117" lineNum="108" parent="globals/Rez/Layouts" pc="268442853" symbol="VersionLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="117" lineNum="110" parent="globals/Rez/Layouts" pc="268442939" symbol="VersionLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="117" lineNum="112" parent="globals/Rez/Layouts" pc="268443025" symbol="VersionLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="117" lineNum="114" parent="globals/Rez/Layouts" pc="268443129" symbol="VersionLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="67" parent="globals/Rez/Layouts" pc="268443149" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="68" parent="globals/Rez/Layouts" pc="268443160" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="70" parent="globals/Rez/Layouts" pc="268443268" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="72" parent="globals/Rez/Layouts" pc="268443354" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="74" parent="globals/Rez/Layouts" pc="268443451" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="76" parent="globals/Rez/Layouts" pc="268443535" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="78" parent="globals/Rez/Layouts" pc="268443619" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="80" parent="globals/Rez/Layouts" pc="268443714" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="82" parent="globals/Rez/Layouts" pc="268443799" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="84" parent="globals/Rez/Layouts" pc="268443895" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="118" lineNum="86" parent="globals/Rez/Layouts" pc="268443979" symbol="WindLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="21" parent="globals/Rez/Layouts" pc="268444029" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="22" parent="globals/Rez/Layouts" pc="268444040" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="24" parent="globals/Rez/Layouts" pc="268444148" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="26" parent="globals/Rez/Layouts" pc="268444234" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="28" parent="globals/Rez/Layouts" pc="268444331" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="30" parent="globals/Rez/Layouts" pc="268444415" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="32" parent="globals/Rez/Layouts" pc="268444499" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="34" parent="globals/Rez/Layouts" pc="268444594" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="36" parent="globals/Rez/Layouts" pc="268444677" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="38" parent="globals/Rez/Layouts" pc="268444762" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="40" parent="globals/Rez/Layouts" pc="268444858" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="119" lineNum="42" parent="globals/Rez/Layouts" pc="268444942" symbol="EngineLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="120" lineNum="13" parent="globals/Rez/Layouts" pc="268444997" symbol="GPSLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="120" lineNum="14" parent="globals/Rez/Layouts" pc="268445008" symbol="GPSLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="120" lineNum="16" parent="globals/Rez/Layouts" pc="268445094" symbol="GPSLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="120" lineNum="18" parent="globals/Rez/Layouts" pc="268445188" symbol="GPSLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="121" lineNum="117" parent="globals/Rez/Layouts" pc="268445203" symbol="WaterLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="121" lineNum="118" parent="globals/Rez/Layouts" pc="268445214" symbol="WaterLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="121" lineNum="120" parent="globals/Rez/Layouts" pc="268445322" symbol="WaterLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="121" lineNum="122" parent="globals/Rez/Layouts" pc="268445408" symbol="WaterLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="121" lineNum="124" parent="globals/Rez/Layouts" pc="268445505" symbol="WaterLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="45" parent="globals/Rez/Layouts" pc="268445525" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="46" parent="globals/Rez/Layouts" pc="268445536" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="48" parent="globals/Rez/Layouts" pc="268445644" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="50" parent="globals/Rez/Layouts" pc="268445730" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="52" parent="globals/Rez/Layouts" pc="268445827" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="54" parent="globals/Rez/Layouts" pc="268445911" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="56" parent="globals/Rez/Layouts" pc="268445995" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="58" parent="globals/Rez/Layouts" pc="268446090" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="60" parent="globals/Rez/Layouts" pc="268446175" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="62" parent="globals/Rez/Layouts" pc="268446271" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="122" lineNum="64" parent="globals/Rez/Layouts" pc="268446355" symbol="SpeedLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="89" parent="globals/Rez/Layouts" pc="268446405" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="90" parent="globals/Rez/Layouts" pc="268446416" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="92" parent="globals/Rez/Layouts" pc="268446502" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="94" parent="globals/Rez/Layouts" pc="268446588" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="96" parent="globals/Rez/Layouts" pc="268446696" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="98" parent="globals/Rez/Layouts" pc="268446780" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="100" parent="globals/Rez/Layouts" pc="268446875" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="102" parent="globals/Rez/Layouts" pc="268446960" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="123" lineNum="104" parent="globals/Rez/Layouts" pc="268447055" symbol="MainLayout"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="124" lineNum="143" parent="globals/Rez/Menus/MainMenu" pc="268447095" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="144" parent="globals/Rez/Menus/MainMenu" pc="268447107" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="145" parent="globals/Rez/Menus/MainMenu" pc="268447109" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="146" parent="globals/Rez/Menus/MainMenu" pc="268447121" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="147" parent="globals/Rez/Menus/MainMenu" pc="268447140" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="148" parent="globals/Rez/Menus/MainMenu" pc="268447159" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="149" parent="globals/Rez/Menus/MainMenu" pc="268447178" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="150" parent="globals/Rez/Menus/MainMenu" pc="268447197" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="151" parent="globals/Rez/Menus/MainMenu" pc="268447216" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="152" parent="globals/Rez/Menus/MainMenu" pc="268447235" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="153" parent="globals/Rez/Menus/MainMenu" pc="268447254" symbol="initialize"/>
+        <entry filename="/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/bin/gen/006-B3906-00/source/Rez.mcgen" id="125" lineNum="154" parent="globals/Rez/Menus/MainMenu" pc="268447273" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="7" object="true" symbol="GPSView"/>
+        <entry id="67" symbol="Version"/>
+        <entry id="13" object="true" symbol="PypilotcommandApp"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="63" symbol="engine"/>
+        <entry id="17" object="true" symbol="SetupDelegate"/>
+        <entry field="true" id="26" symbol="myCount"/>
+        <entry id="53" method="true" symbol="MainLayout"/>
+        <entry field="true" id="34" symbol="url"/>
+        <entry id="19" object="true" symbol="VersionView"/>
+        <entry id="31" object="true" symbol="speedView"/>
+        <entry id="16" object="true" symbol="PypilotcommandView"/>
+        <entry field="true" id="29" symbol="seg_num"/>
+        <entry id="22" method="true" symbol="drawStatus"/>
+        <entry field="true" id="43" symbol="kdata"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="15" object="true" symbol="PypilotcommandMenuDelegate"/>
+        <entry id="38" object="true" symbol="windView"/>
+        <entry id="58" method="true" symbol="WindLayout"/>
+        <entry field="true" id="45" symbol="newData"/>
+        <entry field="true" id="60" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry field="true" id="12" symbol="IPseg4"/>
+        <entry field="true" id="11" symbol="IPseg3"/>
+        <entry field="true" id="10" symbol="IPseg2"/>
+        <entry field="true" id="9" symbol="IPseg1"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="14" object="true" symbol="PypilotcommandDelegate"/>
+        <entry id="56" method="true" symbol="VersionLayout"/>
+        <entry id="51" method="true" symbol="EngineLayout"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="47" symbol="timeLabel"/>
+        <entry id="24" object="true" symbol="genericDelegate"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="42" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="33" method="true" symbol="updateURL"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="37" object="true" symbol="webReturnView"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="66" symbol="Setup"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="65" symbol="GPS"/>
+        <entry id="55" method="true" symbol="SpeedLayout"/>
+        <entry id="25" method="true" symbol="loadip"/>
+        <entry id="44" method="true" symbol="makeRequest"/>
+        <entry id="23" object="true" symbol="engineView"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="54" method="true" symbol="SetupLayout"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="30" object="true" symbol="speedDelegate"/>
+        <entry id="59" object="true" symbol="MainMenu"/>
+        <entry id="8" symbol="IP"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="27" symbol="req"/>
+        <entry id="61" symbol="autopilot"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="46" method="true" symbol="onReceive"/>
+        <entry field="true" id="21" symbol="comType"/>
+        <entry id="40" method="true" symbol="timerCallback"/>
+        <entry id="32" method="true" symbol="splitString"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="50" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="18" object="true" symbol="SetupView"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry field="true" id="39" symbol="myTimer"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="36" object="true" symbol="waterView"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="35" symbol="view"/>
+        <entry id="64" symbol="water"/>
+        <entry id="20" object="true" symbol="WebRequest"/>
+        <entry field="true" id="48" symbol="_message"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="57" method="true" symbol="WaterLayout"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="41" module="true" symbol="Layouts"/>
+        <entry id="62" symbol="wind"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry id="49" method="true" symbol="printIP"/>
+        <entry id="52" method="true" symbol="GPSLayout"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="28" object="true" symbol="screen2View"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435751" name="i" stackId="1" startPc="268435716"/>
+        <entry arg="true" endPc="268435997" name="view" stackId="1" startPc="268435851"/>
+        <entry endPc="268435996" name="label" stackId="2" startPc="268435862"/>
+        <entry endPc="268435996" name="parts" stackId="3" startPc="268435862"/>
+        <entry endPc="268435996" name="status" stackId="4" startPc="268435862"/>
+        <entry arg="true" endPc="268436134" name="s" stackId="1" startPc="268436022"/>
+        <entry arg="true" endPc="268436134" name="delimiter" stackId="2" startPc="268436022"/>
+        <entry endPc="268436134" name="result" stackId="3" startPc="268436033"/>
+        <entry endPc="268436134" name="search" stackId="4" startPc="268436033"/>
+        <entry endPc="268436134" name="index" stackId="5" startPc="268436033"/>
+        <entry arg="true" endPc="268436365" name="dc" stackId="1" startPc="268436330"/>
+        <entry arg="true" endPc="268436399" name="dc" stackId="1" startPc="268436381"/>
+        <entry arg="true" endPc="268436747" name="keyEvent" stackId="1" startPc="268436583"/>
+        <entry arg="true" endPc="268436783" name="dc" stackId="1" startPc="268436748"/>
+        <entry arg="true" endPc="268437143" name="dc" stackId="1" startPc="268436799"/>
+        <entry endPc="268437123" name="parts" stackId="2" startPc="268436868"/>
+        <entry endPc="268437123" name="status" stackId="3" startPc="268436868"/>
+        <entry endPc="268437123" name="cool" stackId="4" startPc="268436868"/>
+        <entry endPc="268437123" name="aux" stackId="5" startPc="268436868"/>
+        <entry endPc="268437123" name="ex" stackId="6" startPc="268436868"/>
+        <entry endPc="268437123" name="label" stackId="7" startPc="268436868"/>
+        <entry endPc="268437123" name="coolLabel" stackId="8" startPc="268436868"/>
+        <entry endPc="268437123" name="auxLabel" stackId="9" startPc="268436868"/>
+        <entry endPc="268437123" name="exLabel" stackId="10" startPc="268436868"/>
+        <entry arg="true" endPc="268437255" name="responseCode" stackId="1" startPc="268437144"/>
+        <entry arg="true" endPc="268437255" name="data" stackId="2" startPc="268437144"/>
+        <entry arg="true" endPc="268437352" name="command" stackId="1" startPc="268437256"/>
+        <entry endPc="268437351" name="params" stackId="2" startPc="268437259"/>
+        <entry endPc="268437351" name="options" stackId="3" startPc="268437259"/>
+        <entry endPc="268437351" name="responseCallback" stackId="4" startPc="268437259"/>
+        <entry arg="true" endPc="268437388" name="dc" stackId="1" startPc="268437353"/>
+        <entry arg="true" endPc="268437754" name="dc" stackId="1" startPc="268437404"/>
+        <entry endPc="268437734" name="parts" stackId="2" startPc="268437473"/>
+        <entry endPc="268437734" name="status" stackId="3" startPc="268437473"/>
+        <entry endPc="268437734" name="spd" stackId="4" startPc="268437473"/>
+        <entry endPc="268437734" name="hdg" stackId="5" startPc="268437473"/>
+        <entry endPc="268437734" name="tws" stackId="6" startPc="268437473"/>
+        <entry endPc="268437734" name="label" stackId="7" startPc="268437473"/>
+        <entry endPc="268437734" name="speedLabel" stackId="8" startPc="268437473"/>
+        <entry endPc="268437734" name="hdgLabel" stackId="9" startPc="268437473"/>
+        <entry endPc="268437734" name="twsLabel" stackId="10" startPc="268437473"/>
+        <entry arg="true" endPc="268437815" name="dc" stackId="1" startPc="268437755"/>
+        <entry arg="true" endPc="268438046" name="dc" stackId="1" startPc="268437831"/>
+        <entry endPc="268438045" name="myTime" stackId="2" startPc="268437834"/>
+        <entry endPc="268438015" name="vibePattern" stackId="3" startPc="268437950"/>
+        <entry arg="true" endPc="268438868" name="item" stackId="1" startPc="268438047"/>
+        <entry arg="true" endPc="268439137" name="keyEvent" stackId="1" startPc="268439067"/>
+        <entry arg="true" endPc="268439453" name="keyEvent" stackId="1" startPc="268439226"/>
+        <entry arg="true" endPc="268439489" name="dc" stackId="1" startPc="268439454"/>
+        <entry arg="true" endPc="268439777" name="dc" stackId="1" startPc="268439505"/>
+        <entry endPc="268439757" name="parts" stackId="2" startPc="268439574"/>
+        <entry endPc="268439757" name="status" stackId="3" startPc="268439574"/>
+        <entry endPc="268439757" name="water" stackId="4" startPc="268439574"/>
+        <entry endPc="268439757" name="label" stackId="5" startPc="268439574"/>
+        <entry endPc="268439757" name="waterLabel" stackId="6" startPc="268439574"/>
+        <entry arg="true" endPc="268439794" name="state" stackId="1" startPc="268439778"/>
+        <entry arg="true" endPc="268439951" name="dc" stackId="1" startPc="268439870"/>
+        <entry endPc="268439950" name="label" stackId="2" startPc="268439873"/>
+        <entry arg="true" endPc="268439990" name="message" stackId="1" startPc="268439952"/>
+        <entry arg="true" endPc="268440076" name="dc" stackId="1" startPc="268439991"/>
+        <entry endPc="268440056" name="label" stackId="2" startPc="268440007"/>
+        <entry arg="true" endPc="268440122" name="dc" stackId="1" startPc="268440087"/>
+        <entry endPc="268440595" name="label" stackId="1" startPc="268440126"/>
+        <entry arg="true" endPc="268440774" name="dc" stackId="1" startPc="268440749"/>
+        <entry arg="true" endPc="268440810" name="dc" stackId="1" startPc="268440775"/>
+        <entry arg="true" endPc="268441176" name="dc" stackId="1" startPc="268440826"/>
+        <entry endPc="268441156" name="parts" stackId="2" startPc="268440895"/>
+        <entry endPc="268441156" name="status" stackId="3" startPc="268440895"/>
+        <entry endPc="268441156" name="tws" stackId="4" startPc="268440895"/>
+        <entry endPc="268441156" name="twa" stackId="5" startPc="268440895"/>
+        <entry endPc="268441156" name="spd" stackId="6" startPc="268440895"/>
+        <entry endPc="268441156" name="label" stackId="7" startPc="268440895"/>
+        <entry endPc="268441156" name="twsLabel" stackId="8" startPc="268440895"/>
+        <entry endPc="268441156" name="twaLabel" stackId="9" startPc="268440895"/>
+        <entry endPc="268441156" name="spdLabel" stackId="10" startPc="268440895"/>
+        <entry arg="true" endPc="268441778" name="keyEvent" stackId="1" startPc="268441614"/>
+        <entry arg="true" endPc="268441848" name="dc" stackId="1" startPc="268441813"/>
+        <entry arg="true" endPc="268442196" name="dc" stackId="1" startPc="268441864"/>
+        <entry endPc="268442176" name="parts" stackId="2" startPc="268441933"/>
+        <entry endPc="268442176" name="status" stackId="3" startPc="268441933"/>
+        <entry endPc="268442176" name="hdg" stackId="4" startPc="268441933"/>
+        <entry endPc="268442176" name="diff" stackId="5" startPc="268441933"/>
+        <entry endPc="268442176" name="label" stackId="6" startPc="268441933"/>
+        <entry endPc="268442176" name="hdgLabel" stackId="7" startPc="268441933"/>
+        <entry endPc="268442176" name="diffLabel" stackId="8" startPc="268441933"/>
+        <entry arg="true" endPc="268442278" name="dc" stackId="1" startPc="268442197"/>
+        <entry endPc="268442277" name="label" stackId="2" startPc="268442200"/>
+        <entry arg="true" endPc="268442317" name="message" stackId="1" startPc="268442279"/>
+        <entry arg="true" endPc="268442336" name="dc" stackId="1" startPc="268442318"/>
+        <entry arg="true" endPc="268442841" name="dc" stackId="1" startPc="268442337"/>
+        <entry endPc="268442841" name="rez_cmp_local_text_1526031864" stackId="2" startPc="268442348"/>
+        <entry endPc="268442841" name="rez_cmp_local_text_seg1" stackId="3" startPc="268442348"/>
+        <entry endPc="268442841" name="rez_cmp_local_text_seg2" stackId="4" startPc="268442348"/>
+        <entry endPc="268442841" name="rez_cmp_local_text_seg3" stackId="5" startPc="268442348"/>
+        <entry endPc="268442841" name="rez_cmp_local_text_seg4" stackId="6" startPc="268442348"/>
+        <entry arg="true" endPc="268443148" name="dc" stackId="1" startPc="268442842"/>
+        <entry endPc="268443148" name="rez_cmp_local_text_1327222584" stackId="2" startPc="268442853"/>
+        <entry endPc="268443148" name="rez_cmp_local_text_2016372201" stackId="3" startPc="268442853"/>
+        <entry endPc="268443148" name="rez_cmp_local_textarea_5456945618" stackId="4" startPc="268442853"/>
+        <entry arg="true" endPc="268444028" name="dc" stackId="1" startPc="268443149"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_autopilot" stackId="2" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_2092624704" stackId="3" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_TWSLabel" stackId="4" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_4642821191" stackId="5" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_8162763392" stackId="6" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_TWALabel" stackId="7" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_1232802238" stackId="8" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_SPDLabel" stackId="9" startPc="268443160"/>
+        <entry endPc="268444028" name="rez_cmp_local_text_2134557307" stackId="10" startPc="268443160"/>
+        <entry arg="true" endPc="268444996" name="dc" stackId="1" startPc="268444029"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_autopilot" stackId="2" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_1139614796" stackId="3" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_coolLabel" stackId="4" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_8374157491" stackId="5" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_1429538713" stackId="6" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_auxLabel" stackId="7" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_1182493329" stackId="8" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_1301674577" stackId="9" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_exLabel" stackId="10" startPc="268444040"/>
+        <entry endPc="268444996" name="rez_cmp_local_text_1638067850" stackId="11" startPc="268444040"/>
+        <entry arg="true" endPc="268445202" name="dc" stackId="1" startPc="268444997"/>
+        <entry endPc="268445202" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268445008"/>
+        <entry endPc="268445202" name="rez_cmp_local_text_timeLabel" stackId="3" startPc="268445008"/>
+        <entry arg="true" endPc="268445524" name="dc" stackId="1" startPc="268445203"/>
+        <entry endPc="268445524" name="rez_cmp_local_text_autopilot" stackId="2" startPc="268445214"/>
+        <entry endPc="268445524" name="rez_cmp_local_text_1703529506" stackId="3" startPc="268445214"/>
+        <entry endPc="268445524" name="rez_cmp_local_text_waterLabel" stackId="4" startPc="268445214"/>
+        <entry arg="true" endPc="268446404" name="dc" stackId="1" startPc="268445525"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_autopilot" stackId="2" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_1279751870" stackId="3" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_speedLabel" stackId="4" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_1618786051" stackId="5" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_1068497434" stackId="6" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_HDGLabel" stackId="7" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_1016840512" stackId="8" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_TWSLabel" stackId="9" startPc="268445536"/>
+        <entry endPc="268446404" name="rez_cmp_local_text_1147896915" stackId="10" startPc="268445536"/>
+        <entry arg="true" endPc="268447094" name="dc" stackId="1" startPc="268446405"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_1785100857" stackId="2" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_3871416621" stackId="3" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_autopilot" stackId="4" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_4632557623" stackId="5" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_hdg" stackId="6" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_1493735697" stackId="7" startPc="268446416"/>
+        <entry endPc="268447094" name="rez_cmp_local_text_hdgDiff" stackId="8" startPc="268446416"/>
+    </localVars>
+    <deviceInfo deviceVersion="90325a5ba4f163ec5ad32845d0e0beee034c6cee" partNumber="006-B3906-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/VersionView" offset="494" parentId="globals" symbolId="VersionView" type="class"/>
+        <dataEntry label="globals/PypilotcommandDelegate" offset="574" parentId="globals" symbolId="PypilotcommandDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="654" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/engineView" offset="716" parentId="globals" symbolId="engineView" type="class"/>
+        <dataEntry label="globals/WebRequest" offset="796" parentId="globals" symbolId="WebRequest" type="class"/>
+        <dataEntry label="globals/speedView" offset="876" parentId="globals" symbolId="speedView" type="class"/>
+        <dataEntry label="globals/GPSView" offset="956" parentId="globals" symbolId="GPSView" type="class"/>
+        <dataEntry label="globals/PypilotcommandMenuDelegate" offset="1045" parentId="globals" symbolId="PypilotcommandMenuDelegate" type="class"/>
+        <dataEntry label="globals/speedDelegate" offset="1098" parentId="globals" symbolId="speedDelegate" type="class"/>
+        <dataEntry label="globals/SetupDelegate" offset="1178" parentId="globals" symbolId="SetupDelegate" type="class"/>
+        <dataEntry label="globals/waterView" offset="1240" parentId="globals" symbolId="waterView" type="class"/>
+        <dataEntry label="globals/PypilotcommandApp" offset="1320" parentId="globals" symbolId="PypilotcommandApp" type="class"/>
+        <dataEntry label="globals/screen2View" offset="1391" parentId="globals" symbolId="screen2View" type="class"/>
+        <dataEntry label="globals/SetupView" offset="1480" parentId="globals" symbolId="SetupView" type="class"/>
+        <dataEntry label="globals/windView" offset="1569" parentId="globals" symbolId="windView" type="class"/>
+        <dataEntry label="globals/genericDelegate" offset="1649" parentId="globals" symbolId="genericDelegate" type="class"/>
+        <dataEntry label="globals/PypilotcommandView" offset="1729" parentId="globals" symbolId="PypilotcommandView" type="class"/>
+        <dataEntry label="globals/webReturnView" offset="1809" parentId="globals" symbolId="webReturnView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1898" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1933" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="2031" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="2066" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="2101" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435497" name="&lt;init&gt;" parent="VersionView" startPc="268435486">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435538" name="&lt;init&gt;" parent="PypilotcommandDelegate" startPc="268435498">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435558" name="&lt;init&gt;" parent="Rez" startPc="268435539">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435570" name="&lt;init&gt;" parent="engineView" startPc="268435559">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WebRequest">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435582" name="&lt;init&gt;" parent="speedView" startPc="268435571">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435594" name="&lt;init&gt;" parent="GPSView" startPc="268435583">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435752" name="loadip" startPc="268435595">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435764" name="&lt;init&gt;" parent="PypilotcommandMenuDelegate" startPc="268435753">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435805" name="&lt;init&gt;" parent="speedDelegate" startPc="268435765">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435817" name="&lt;init&gt;" parent="SetupDelegate" startPc="268435806">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435829" name="&lt;init&gt;" parent="waterView" startPc="268435818">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435850" name="getApp" startPc="268435830">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435997" name="drawStatus" startPc="268435851">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436009" name="&lt;init&gt;" parent="PypilotcommandApp" startPc="268435998">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436021" name="&lt;init&gt;" parent="screen2View" startPc="268436010">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436134" name="splitString" startPc="268436022">
+            <param id="s"/>
+            <param id="delimiter"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436146" name="&lt;init&gt;" parent="SetupView" startPc="268436135">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436158" name="&lt;init&gt;" parent="windView" startPc="268436147">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436199" name="&lt;init&gt;" parent="genericDelegate" startPc="268436159">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436211" name="&lt;init&gt;" parent="PypilotcommandView" startPc="268436200">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436317" name="updateURL" startPc="268436212">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436329" name="&lt;init&gt;" parent="webReturnView" startPc="268436318">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="VersionView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436365" name="onLayout" parent="VersionView" startPc="268436330">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436380" name="initialize" parent="VersionView" startPc="268436366">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="VersionView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436399" name="onUpdate" parent="VersionView" startPc="268436381">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436484" name="onMenu" parent="PypilotcommandDelegate" startPc="268436400">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436499" name="initialize" parent="PypilotcommandDelegate" startPc="268436485">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436582" name="timerCallback" parent="PypilotcommandDelegate" startPc="268436500">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436747" name="onKey" parent="PypilotcommandDelegate" startPc="268436583">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="engineView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436783" name="onLayout" parent="engineView" startPc="268436748">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436798" name="initialize" parent="engineView" startPc="268436784">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="engineView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437143" name="onUpdate" parent="engineView" startPc="268436799">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WebRequest">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437255" name="onReceive" parent="WebRequest" startPc="268437144">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437352" name="makeRequest" parent="WebRequest" startPc="268437256">
+            <param id="command"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="speedView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437388" name="onLayout" parent="speedView" startPc="268437353">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437403" name="initialize" parent="speedView" startPc="268437389">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="speedView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437754" name="onUpdate" parent="speedView" startPc="268437404">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="GPSView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437815" name="onLayout" parent="GPSView" startPc="268437755">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437830" name="initialize" parent="GPSView" startPc="268437816">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="GPSView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438046" name="onUpdate" parent="GPSView" startPc="268437831">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438868" name="onMenuItem" parent="PypilotcommandMenuDelegate" startPc="268438047">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438883" name="initialize" parent="PypilotcommandMenuDelegate" startPc="268438869">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438968" name="onMenu" parent="speedDelegate" startPc="268438884">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438983" name="initialize" parent="speedDelegate" startPc="268438969">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439066" name="timerCallback" parent="speedDelegate" startPc="268438984">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439137" name="onKey" parent="speedDelegate" startPc="268439067">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439210" name="onMenu" parent="SetupDelegate" startPc="268439138">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439225" name="initialize" parent="SetupDelegate" startPc="268439211">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439453" name="onKey" parent="SetupDelegate" startPc="268439226">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="waterView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439489" name="onLayout" parent="waterView" startPc="268439454">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439504" name="initialize" parent="waterView" startPc="268439490">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="waterView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439777" name="onUpdate" parent="waterView" startPc="268439505">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439794" name="onStart" parent="PypilotcommandApp" startPc="268439778">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439851" name="getInitialView" parent="PypilotcommandApp" startPc="268439795">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439866" name="initialize" parent="PypilotcommandApp" startPc="268439852">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439869" name="onStop" parent="PypilotcommandApp" startPc="268439867">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="screen2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439951" name="onLayout" parent="screen2View" startPc="268439870">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439990" name="initialize" parent="screen2View" startPc="268439952">
+            <param id="message"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="screen2View">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440076" name="onUpdate" parent="screen2View" startPc="268439991">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440086" name="onShow" parent="SetupView" startPc="268440077">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440122" name="onLayout" parent="SetupView" startPc="268440087">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440596" name="printIP" parent="SetupView" startPc="268440123">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440611" name="initialize" parent="SetupView" startPc="268440597">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440748" name="onHide" parent="SetupView" startPc="268440612">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440774" name="onUpdate" parent="SetupView" startPc="268440749">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="windView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440810" name="onLayout" parent="windView" startPc="268440775">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440825" name="initialize" parent="windView" startPc="268440811">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="windView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441176" name="onUpdate" parent="windView" startPc="268440826">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441261" name="onMenu" parent="genericDelegate" startPc="268441177">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441276" name="initialize" parent="genericDelegate" startPc="268441262">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441613" name="timerCallback" parent="genericDelegate" startPc="268441277">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441778" name="onKey" parent="genericDelegate" startPc="268441614">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441812" name="onShow" parent="PypilotcommandView" startPc="268441779">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441848" name="onLayout" parent="PypilotcommandView" startPc="268441813">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441863" name="initialize" parent="PypilotcommandView" startPc="268441849">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="PypilotcommandView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442196" name="onUpdate" parent="PypilotcommandView" startPc="268441864">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="webReturnView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442278" name="onLayout" parent="webReturnView" startPc="268442197">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442317" name="initialize" parent="webReturnView" startPc="268442279">
+            <param id="message"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="webReturnView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442336" name="onUpdate" parent="webReturnView" startPc="268442318">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442841" name="SetupLayout" parent="Layouts" startPc="268442337">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443148" name="VersionLayout" parent="Layouts" startPc="268442842">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444028" name="WindLayout" parent="Layouts" startPc="268443149">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444996" name="EngineLayout" parent="Layouts" startPc="268444029">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445202" name="GPSLayout" parent="Layouts" startPc="268444997">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268445524" name="WaterLayout" parent="Layouts" startPc="268445203">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268446404" name="SpeedLayout" parent="Layouts" startPc="268445525">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447094" name="MainLayout" parent="Layouts" startPc="268446405">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447106" name="&lt;init&gt;" parent="MainMenu" startPc="268447095">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447292" name="initialize" parent="MainMenu" startPc="268447107">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

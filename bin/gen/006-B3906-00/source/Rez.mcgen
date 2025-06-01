@@ -1,0 +1,782 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as ResourceId;
+    } // Drawables
+
+    module Layouts {
+        function GPSLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1193959466 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>5, :text=>"GPS watch", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_timeLabel = new WatchUi.Text({:identifier=>"timeLabel", :locX=>(260 * 0.5), :locY=>((260 - dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
+
+            return [rez_cmp_local_text_1193959466, rez_cmp_local_text_timeLabel] as Array<WatchUi.Drawable>;
+        }
+
+        function EngineLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_autopilot = new WatchUi.Text({:identifier=>"autopilot", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_RED, :locX=>(260 * 0.5), :locY=>5, :text=>"...", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_1139614796 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>40, :text=>"Engine Temps", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_coolLabel = new WatchUi.Text({:identifier=>"coolLabel", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>75, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
+
+            var rez_cmp_local_text_8374157491 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>100, :text=>"°C", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_1429538713 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>55, :locY=>150, :text=>"Aux:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_auxLabel = new WatchUi.Text({:identifier=>"auxLabel", :color=>Graphics.COLOR_WHITE, :locX=>75, :locY=>180, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1182493329 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>125, :locY=>185, :text=>"°C", :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_1301674577 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>150, :text=>"Exhaust:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_exLabel = new WatchUi.Text({:identifier=>"exLabel", :color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>180, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1638067850 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>225, :locY=>185, :text=>"°C", :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_text_autopilot, rez_cmp_local_text_1139614796, rez_cmp_local_text_coolLabel, rez_cmp_local_text_8374157491, rez_cmp_local_text_1429538713, rez_cmp_local_text_auxLabel, rez_cmp_local_text_1182493329, rez_cmp_local_text_1301674577, rez_cmp_local_text_exLabel, rez_cmp_local_text_1638067850] as Array<WatchUi.Drawable>;
+        }
+
+        function SpeedLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_autopilot = new WatchUi.Text({:identifier=>"autopilot", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_RED, :locX=>(260 * 0.5), :locY=>5, :text=>"...", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_1279751870 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>40, :text=>"Speed and HDG", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_speedLabel = new WatchUi.Text({:identifier=>"speedLabel", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>75, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
+
+            var rez_cmp_local_text_1618786051 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>100, :text=>"kt", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_1068497434 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>55, :locY=>150, :text=>"HDG:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_HDGLabel = new WatchUi.Text({:identifier=>"HDGLabel", :color=>Graphics.COLOR_WHITE, :locX=>75, :locY=>180, :text=>"333", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1016840512 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>150, :text=>"TWS:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_TWSLabel = new WatchUi.Text({:identifier=>"TWSLabel", :color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>180, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1147896915 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>225, :locY=>185, :text=>"kt", :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_text_autopilot, rez_cmp_local_text_1279751870, rez_cmp_local_text_speedLabel, rez_cmp_local_text_1618786051, rez_cmp_local_text_1068497434, rez_cmp_local_text_HDGLabel, rez_cmp_local_text_1016840512, rez_cmp_local_text_TWSLabel, rez_cmp_local_text_1147896915] as Array<WatchUi.Drawable>;
+        }
+
+        function WindLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_autopilot = new WatchUi.Text({:identifier=>"autopilot", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_RED, :locX=>(260 * 0.5), :locY=>5, :text=>"...", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_2092624704 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>40, :text=>"Wind and Speed", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_TWSLabel = new WatchUi.Text({:identifier=>"TWSLabel", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>75, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
+
+            var rez_cmp_local_text_4642821191 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>100, :text=>"kt", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_8162763392 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>55, :locY=>150, :text=>"TWA:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_TWALabel = new WatchUi.Text({:identifier=>"TWALabel", :color=>Graphics.COLOR_WHITE, :locX=>75, :locY=>180, :text=>"333", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1232802238 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>150, :text=>"SPD:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_SPDLabel = new WatchUi.Text({:identifier=>"SPDLabel", :color=>Graphics.COLOR_WHITE, :locX=>175, :locY=>180, :text=>"99.9", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_2134557307 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>225, :locY=>185, :text=>"kt", :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_text_autopilot, rez_cmp_local_text_2092624704, rez_cmp_local_text_TWSLabel, rez_cmp_local_text_4642821191, rez_cmp_local_text_8162763392, rez_cmp_local_text_TWALabel, rez_cmp_local_text_1232802238, rez_cmp_local_text_SPDLabel, rez_cmp_local_text_2134557307] as Array<WatchUi.Drawable>;
+        }
+
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1785100857 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>5, :text=>"Autopilot", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            var rez_cmp_local_text_3871416621 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>50, :text=>"Status: ", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_autopilot = new WatchUi.Text({:identifier=>"autopilot", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_RED, :locX=>(260 * 0.5), :locY=>100, :text=>"...", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            var rez_cmp_local_text_4632557623 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>50, :locY=>150, :text=>"HDG: ", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_hdg = new WatchUi.Text({:identifier=>"hdg", :color=>Graphics.COLOR_WHITE, :locX=>55, :locY=>175, :text=>"333", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_1493735697 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>150, :text=>"ERROR:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_hdgDiff = new WatchUi.Text({:identifier=>"hdgDiff", :color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>175, :text=>"54", :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_MEDIUM});
+
+            return [rez_cmp_local_text_1785100857, rez_cmp_local_text_3871416621, rez_cmp_local_text_autopilot, rez_cmp_local_text_4632557623, rez_cmp_local_text_hdg, rez_cmp_local_text_1493735697, rez_cmp_local_text_hdgDiff] as Array<WatchUi.Drawable>;
+        }
+
+        function VersionLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1327222584 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>5, :text=>"About", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_2016372201 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>25, :text=>"(C) Djaahn 2025", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_textarea_5456945618 = new WatchUi.TextArea({:color=>Graphics.COLOR_WHITE, :width=>200, :locX=>(260 / 2) - (200 / 2), :locY=>50, :text=>"Please use the server SW at Github repro: Garmin_Pypilot!", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :height=>200, :font=>[Graphics.FONT_MEDIUM] as Array<Graphics.FontType>});
+
+            return [rez_cmp_local_text_1327222584, rez_cmp_local_text_2016372201, rez_cmp_local_textarea_5456945618] as Array<WatchUi.Drawable>;
+        }
+
+        function WaterLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_autopilot = new WatchUi.Text({:identifier=>"autopilot", :backgroundColor=>Graphics.COLOR_WHITE, :color=>Graphics.COLOR_RED, :locX=>(260 * 0.5), :locY=>5, :text=>"...", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_1703529506 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>40, :text=>"Water level", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_waterLabel = new WatchUi.Text({:identifier=>"waterLabel", :color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>75, :text=>"100%", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
+
+            return [rez_cmp_local_text_autopilot, rez_cmp_local_text_1703529506, rez_cmp_local_text_waterLabel] as Array<WatchUi.Drawable>;
+        }
+
+        function SetupLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_1526031864 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(260 * 0.5), :locY=>5, :text=>"IP:", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+
+            var rez_cmp_local_text_seg1 = new WatchUi.Text({:identifier=>"seg1", :color=>Graphics.COLOR_WHITE, :locX=>50, :locY=>100, :text=>"000", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_seg2 = new WatchUi.Text({:identifier=>"seg2", :color=>Graphics.COLOR_WHITE, :locX=>100, :locY=>100, :text=>"000", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_seg3 = new WatchUi.Text({:identifier=>"seg3", :color=>Graphics.COLOR_WHITE, :locX=>150, :locY=>100, :text=>"000", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_seg4 = new WatchUi.Text({:identifier=>"seg4", :color=>Graphics.COLOR_WHITE, :locX=>200, :locY=>100, :text=>"000", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_text_1526031864, rez_cmp_local_text_seg1, rez_cmp_local_text_seg2, rez_cmp_local_text_seg3, rez_cmp_local_text_seg4] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+        class MainMenu extends WatchUi.Menu {
+            function initialize() {
+                Menu.initialize();
+                Menu.setTitle("Pypilot");
+                addItem("Autopilot", :autopilot);
+                addItem("Speed info", :speed);
+                addItem("Wind info", :wind);
+                addItem("Engine", :engine);
+                addItem("Water", :water);
+                addItem("GPS time", :GPS);
+                addItem("Setup", :Setup);
+                addItem("About", :Version);
+            }
+        }
+    } // Menus
+
+    module Strings {
+        (:initialized) var AppName as ResourceId;
+    } // Strings
+
+    module Styles {
+        module prompt_font_enhanced_readability__body_with_title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__body_with_title
+
+        module system_size__menu_header {
+            const width as Number = 260;
+            const height as Number = 81;
+        } // system_size__menu_header
+
+        module system_loc__hint_button_left_bottom {
+            const x as Number = 10;
+            const y as Number = 172;
+        } // system_loc__hint_button_left_bottom
+
+        module prompt_font_enhanced_readability__body_no_title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__body_no_title
+
+        module prompt_loc__body_no_title {
+            const x as Number = 26;
+            const y as Number = 26;
+        } // prompt_loc__body_no_title
+
+        module system_icon_dark__about {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__about.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__about
+
+        module system_icon_light__question {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__question.svg";
+            const dithering as String = "none";
+        } // system_icon_light__question
+
+        module system_loc__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_left_top
+
+        module prompt_font__title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_XTINY;
+        } // prompt_font__title
+
+        module system_icon_dark__discard {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__discard.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__discard
+
+        module system_size__menu_item {
+            const width as Number = 260;
+            const height as Number = 68;
+        } // system_size__menu_item
+
+        module system_color_dark__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // system_color_dark__text
+
+        module system_icon_destructive__discard {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__discard.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__discard
+
+        module system_icon_dark__hint_action_menu {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_action_menu
+
+        module prompt_size__title {
+            const width as Number = 208;
+            const height as Number = 39;
+        } // prompt_size__title
+
+        module confirmation_font__body {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_TINY;
+        } // confirmation_font__body
+
+        module system_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // system_color_dark__background
+
+        module system_icon_destructive__hint_button_left_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_top.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_left_top
+
+        module system_size__launch_icon {
+            const scaleX as Number = 40;
+            const scaleY as Number = 40;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__launch_icon
+
+        module confirmation_input__confirm {
+            const button = WatchUi.KEY_ENTER;
+        } // confirmation_input__confirm
+
+        module prompt_font__body_with_title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER;
+            const font = Graphics.FONT_TINY;
+        } // prompt_font__body_with_title
+
+        module confirmation_loc__body {
+            const x as Number = 52;
+            const y as Number = 52;
+        } // confirmation_loc__body
+
+        module system_icon_destructive__hint_button_left_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_left_bottom
+
+        module prompt_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // prompt_color_dark__background
+
+        module system_icon_destructive__hint_action_menu {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_action_menu
+
+        module system_loc__hint_action_menu {
+            const x as Number = 225;
+            const y as Number = 48;
+        } // system_loc__hint_action_menu
+
+        module confirmation_icon__hint_confirm {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_confirm
+
+        module system_loc__hint_button_left_middle {
+            const x as Number = 3;
+            const y as Number = 108;
+        } // system_loc__hint_button_left_middle
+
+        module prompt_size__body_no_title {
+            const width as Number = 208;
+            const height as Number = 208;
+        } // prompt_size__body_no_title
+
+        module system_icon_light__hint_button_left_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_top.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_left_top
+
+        module prompt_color_light__background {
+            const color as Number = 0xFFFFFF;
+            const background as Number = 0xFFFFFF;
+        } // prompt_color_light__background
+
+        module confirmation_input__delete {
+            const button = WatchUi.KEY_ENTER;
+        } // confirmation_input__delete
+
+        module system_icon_dark__hint_button_left_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_top.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_left_top
+
+        module system_input__action_menu {
+            const button = WatchUi.KEY_ENTER;
+        } // system_input__action_menu
+
+        module system_icon_light__save {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__save.svg";
+            const dithering as String = "none";
+        } // system_icon_light__save
+
+        module prompt_color_light__body {
+            const color as Number = 0x000000;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_light__body
+
+        module system_loc__subwindow {
+            const exclude as Boolean = true;
+        } // system_loc__subwindow
+
+        module system_icon_light__warning {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__warning.svg";
+            const dithering as String = "none";
+        } // system_icon_light__warning
+
+        module confirmation_color_light__body {
+            const color as Number = 0x000000;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // confirmation_color_light__body
+
+        module confirmation_icon_light__hint_keep {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_keep
+
+        module activity_color_light__background {
+            const color as Number = 0xFFFFFF;
+            const background as Number = 0xFFFFFF;
+        } // activity_color_light__background
+
+        module system_icon_positive__hint_button_right_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_right_top
+
+        module system_size__screen {
+            const width as Number = 260;
+            const height as Number = 260;
+        } // system_size__screen
+
+        module system_icon_destructive__hint_button_right_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_right_bottom
+
+        module system_color_light__background {
+            const color as Number = 0xFFFFFF;
+            const background as Number = 0xFFFFFF;
+        } // system_color_light__background
+
+        module system_icon_destructive__hint_button_right_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_right_top
+
+        module confirmation_loc__hint_confirm {
+            const x as Number = 210;
+            const y as Number = 48;
+        } // confirmation_loc__hint_confirm
+
+        module activity_color_dark__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // activity_color_dark__text
+
+        module confirmation_input__keep {
+            const button = WatchUi.KEY_DOWN;
+        } // confirmation_input__keep
+
+        module prompt_loc__body_with_title {
+            const x as Number = 26;
+            const y as Number = 78;
+        } // prompt_loc__body_with_title
+
+        module system_icon_dark__search {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__search.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__search
+
+        module activity_color_light__text {
+            const color as Number = 0x000000;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // activity_color_light__text
+
+        module confirmation_icon__hint_keep {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_keep
+
+        module system_icon_dark__save {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__save.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__save
+
+        module system_icon_destructive__hint_button_left_middle {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__hint_button_left_middle.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_left_middle
+
+        module system_icon_light__search {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__search.svg";
+            const dithering as String = "none";
+        } // system_icon_light__search
+
+        module system_icon_dark__hint_button_left_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_left_bottom
+
+        module system_icon_positive__hint_button_left_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_top.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_left_top
+
+        module system_loc__hint_button_right_bottom {
+            const x as Number = 225;
+            const y as Number = 172;
+        } // system_loc__hint_button_right_bottom
+
+        module confirmation_icon_dark__hint_reject {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_reject
+
+        module confirmation_color_dark__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // confirmation_color_dark__body
+
+        module confirmation_icon_light__hint_confirm {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_confirm
+
+        module prompt_color_dark__title {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_dark__title
+
+        module system_icon_destructive__cancel {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__cancel.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__cancel
+
+        module system_icon_light__hint_button_right_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_right_bottom
+
+        module prompt_loc__title {
+            const x as Number = 26;
+            const y as Number = 19;
+        } // prompt_loc__title
+
+        module confirmation_font_enhanced_readability__body {
+            const exclude as Boolean = true;
+        } // confirmation_font_enhanced_readability__body
+
+        module prompt_color_light__title {
+            const color as Number = 0x000000;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_light__title
+
+        module system_icon_dark__hint_button_right_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_right_top
+
+        module system_icon_dark__hint_button_left_middle {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_left_middle.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_left_middle
+
+        module confirmation_icon_dark__hint_keep {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_keep
+
+        module system_icon_light__cancel {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__cancel.svg";
+            const dithering as String = "none";
+        } // system_icon_light__cancel
+
+        module confirmation_icon_light__hint_reject {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_reject
+
+        module system_icon_light__about {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__about.svg";
+            const dithering as String = "none";
+        } // system_icon_light__about
+
+        module system_size__toast_icon {
+            const scaleX as Number = 40;
+            const scaleY as Number = 40;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__toast_icon
+
+        module system_icon_dark__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_dark__hint_button_right_middle
+
+        module confirmation_icon__hint_reject {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_reject
+
+        module system_icon_light__hint_action_menu {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_action_menu
+
+        module system_icon_light__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_light__hint_button_right_middle
+
+        module system_icon_destructive__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_destructive__hint_button_right_middle
+
+        module confirmation_loc__hint_reject {
+            const x as Number = 10;
+            const y as Number = 172;
+            const horizontalJustification as String = "left";
+        } // confirmation_loc__hint_reject
+
+        module confirmation_icon_dark__hint_delete {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_delete
+
+        module activity_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // activity_color_dark__background
+
+        module system_icon_light__hint_button_left_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_left_bottom
+
+        module system_icon_positive__hint_button_left_middle {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_middle.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_left_middle
+
+        module system_size__menu_icon {
+            const scaleX as Number = 40;
+            const scaleY as Number = 40;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__menu_icon
+
+        module system_icon_destructive__warning {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_destructive__warning.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__warning
+
+        module system_loc__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_right_middle
+
+        module system_icon_dark__cancel {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__cancel.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__cancel
+
+        module prompt_size__body_with_title {
+            const width as Number = 208;
+            const height as Number = 156;
+        } // prompt_size__body_with_title
+
+        module system_loc__hint_button_right_top {
+            const x as Number = 225;
+            const y as Number = 48;
+        } // system_loc__hint_button_right_top
+
+        module system_color_light__text {
+            const color as Number = 0x000000;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // system_color_light__text
+
+        module system_icon_light__check {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__check.svg";
+            const dithering as String = "none";
+        } // system_icon_light__check
+
+        module confirmation_input__reject {
+            const button = WatchUi.KEY_DOWN;
+        } // confirmation_input__reject
+
+        module system_icon_light__revert {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__revert.svg";
+            const dithering as String = "none";
+        } // system_icon_light__revert
+
+        module system_size__subwindow {
+            const exclude as Boolean = true;
+        } // system_size__subwindow
+
+        module system_icon_positive__hint_button_left_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_left_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_left_bottom
+
+        module system_icon_dark__check {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__check.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__check
+
+        module confirmation_loc__hint_keep {
+            const x as Number = 10;
+            const y as Number = 172;
+            const horizontalJustification as String = "left";
+        } // confirmation_loc__hint_keep
+
+        module confirmation_loc__hint_delete {
+            const x as Number = 210;
+            const y as Number = 48;
+        } // confirmation_loc__hint_delete
+
+        module system_icon_positive__hint_action_menu {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_action_menu
+
+        module system_icon_positive__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_positive__hint_button_right_middle
+
+        module system_icon_light__hint_button_left_middle {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_left_middle.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_left_middle
+
+        module system_icon_dark__hint_button_right_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_right_bottom
+
+        module system_icon_positive__hint_button_right_bottom {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_right_bottom
+
+        module system_icon_dark__revert {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__revert.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__revert
+
+        module confirmation_icon_light__hint_delete {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_delete
+
+        module system_icon_dark__question {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__question.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__question
+
+        module system_icon_light__discard {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__discard.svg";
+            const dithering as String = "none";
+        } // system_icon_light__discard
+
+        module device_info {
+            const screenWidth as Number = 260;
+            const screenShape = Toybox.System.SCREEN_SHAPE_ROUND;
+            const hasNightMode as Boolean = false;
+            const hasGpu as Boolean = true;
+            const screenHeight as Number = 260;
+            const hasTouchScreen as Boolean = true;
+            const hasEnhancedReadabilityMode as Boolean = false;
+        } // device_info
+
+        module confirmation_icon_dark__hint_confirm {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_confirm
+
+        module prompt_font__body_no_title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_TINY;
+        } // prompt_font__body_no_title
+
+        module prompt_size__title_icon {
+            const scaleX as Float = 0.15;
+            const scaleRelativeTo as String = "screen";
+        } // prompt_size__title_icon
+
+        module system_icon_dark__warning {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_dark__warning.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__warning
+
+        module prompt_loc__title_icon {
+            const x as Number = 130;
+            const y as Number = 39;
+            const horizontalJustification as String = "center";
+            const verticalJustification as String = "center";
+        } // prompt_loc__title_icon
+
+        module prompt_font_enhanced_readability__title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__title
+
+        module prompt_color_dark__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_dark__body
+
+        module confirmation_icon__hint_delete {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_delete
+
+        module system_icon_light__hint_button_right_top {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_light__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_right_top
+
+        module confirmation_size__body {
+            const width as Number = 156;
+            const height as Number = 156;
+        } // confirmation_size__body
+
+        module system_icon_positive__check {
+            const filename as String = "/Users/morten/Library/Application Support/Garmin/ConnectIQ/Devices/fenix7/system_icon_positive__check.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__check
+    } // Styles
+} // Rez

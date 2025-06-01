@@ -1,0 +1,358 @@
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 7; @symbol_classdef = [PypilotcommandMenuDelegate,7,6,32]; @symbol_extends<0> = [WatchUi,7,41,48]; @symbol_extends<1> = [MenuInputDelegate,7,49,66]; ]
+class PypilotcommandMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; ]
+    function initialize() as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_9_26_11_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 10 8 ]
+        symbol [ MenuInputDelegate %tmp.2 10 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 10 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_9_26_11_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 13; @symbol_functiondef = [onMenuItem,13,13,23]; @symbol_param<0> = [item,13,24,28]; ]
+    function onMenuItem(item) as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_13_38_55_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 14 8 ]
+        symbol [ System %tmp.1 14 8 14 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 14 15 22 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = lgetv %item;
+        symbol [ item %tmp.3 14 23 27 ];
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 15 8 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_stmt:
+        %tmp.4 = lgetv %item;
+        symbol [ item %tmp.4 15 12 16 ];
+        %tmp.6 = const :autopilot;
+        symbol [ autopilot %tmp.6 15 21 30 const ];
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_32_18_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 16 12 ]
+        %tmp.8 = "autopilot";
+        symbol [ view ? 16 12 16 ];
+        putv self :view %tmp.8;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 17 12 ]
+        symbol [ WatchUi %tmp.9 17 12 19 ];
+        %tmp.9 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.10 17 20 28 ];
+        %tmp.10 = getv function %tmp.9 :pushView;
+        symbol [ PypilotcommandView %tmp.14 17 33 51 ];
+        %tmp.14 = getv ? :PypilotcommandView;
+        %tmp.11 = newc %tmp.14 ();
+        symbol [ PypilotcommandDelegate %tmp.18 17 59 81 ];
+        %tmp.18 = getv ? :PypilotcommandDelegate;
+        %tmp.15 = newc %tmp.18 ();
+        symbol [ WatchUi %tmp.19 17 85 92 ];
+        %tmp.19 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.20 17 93 101 ];
+        %tmp.20 = getv %tmp.19 :SLIDE_UP;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.15, %tmp.20);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_32_18_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 19 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_stmt:
+        %tmp.21 = lgetv %item;
+        symbol [ item %tmp.21 19 17 21 ];
+        %tmp.23 = const :speed;
+        symbol [ speed %tmp.23 19 26 31 const ];
+        %tmp.24 = eq %tmp.21 %tmp.23;
+        bf %tmp.24 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_33_24_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 20 12 ]
+        %tmp.25 = "speed";
+        symbol [ view ? 20 12 16 ];
+        putv self :view %tmp.25;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 21 12 ]
+        %tmp.26 = "data";
+        symbol [ comType ? 21 12 19 ];
+        putv self :comType %tmp.26;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 22 12 ]
+        symbol [ req %tmp.28 22 12 15 ];
+        %tmp.28 = getv ? :req;
+        symbol [ makeRequest %tmp.29 22 16 27 ];
+        %tmp.29 = getv function %tmp.28 :makeRequest;
+        %tmp.30 = "speed";
+        invoke %tmp.28 %tmp.29(%tmp.30);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 23 12 ]
+        symbol [ WatchUi %tmp.31 23 12 19 ];
+        %tmp.31 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.32 23 20 28 ];
+        %tmp.32 = getv function %tmp.31 :pushView;
+        symbol [ speedView %tmp.36 23 33 42 ];
+        %tmp.36 = getv ? :speedView;
+        %tmp.33 = newc %tmp.36 ();
+        symbol [ genericDelegate %tmp.40 23 50 65 ];
+        %tmp.40 = getv ? :genericDelegate;
+        %tmp.37 = newc %tmp.40 ();
+        symbol [ WatchUi %tmp.41 23 69 76 ];
+        %tmp.41 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.42 23 77 85 ];
+        %tmp.42 = getv %tmp.41 :SLIDE_UP;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.37, %tmp.42);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_33_24_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 25 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_stmt:
+        %tmp.43 = lgetv %item;
+        symbol [ item %tmp.43 25 17 21 ];
+        %tmp.45 = const :wind;
+        symbol [ wind %tmp.45 25 26 30 const ];
+        %tmp.46 = eq %tmp.43 %tmp.45;
+        bf %tmp.46 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_32_30_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 26 12 ]
+        %tmp.47 = "wind";
+        symbol [ view ? 26 12 16 ];
+        putv self :view %tmp.47;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 27 12 ]
+        %tmp.48 = "data";
+        symbol [ comType ? 27 12 19 ];
+        putv self :comType %tmp.48;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 28 12 ]
+        symbol [ req %tmp.50 28 12 15 ];
+        %tmp.50 = getv ? :req;
+        symbol [ makeRequest %tmp.51 28 16 27 ];
+        %tmp.51 = getv function %tmp.50 :makeRequest;
+        %tmp.52 = "wind";
+        invoke %tmp.50 %tmp.51(%tmp.52);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 29 12 ]
+        symbol [ WatchUi %tmp.53 29 12 19 ];
+        %tmp.53 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.54 29 20 28 ];
+        %tmp.54 = getv function %tmp.53 :pushView;
+        symbol [ windView %tmp.58 29 33 41 ];
+        %tmp.58 = getv ? :windView;
+        %tmp.55 = newc %tmp.58 ();
+        symbol [ genericDelegate %tmp.62 29 49 64 ];
+        %tmp.62 = getv ? :genericDelegate;
+        %tmp.59 = newc %tmp.62 ();
+        symbol [ WatchUi %tmp.63 29 68 75 ];
+        %tmp.63 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.64 29 76 84 ];
+        %tmp.64 = getv %tmp.63 :SLIDE_UP;
+        invoke %tmp.53 %tmp.54(%tmp.55, %tmp.59, %tmp.64);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_32_30_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 31 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_stmt:
+        %tmp.65 = lgetv %item;
+        symbol [ item %tmp.65 31 17 21 ];
+        %tmp.67 = const :engine;
+        symbol [ engine %tmp.67 31 26 32 const ];
+        %tmp.68 = eq %tmp.65 %tmp.67;
+        bf %tmp.68 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_34_36_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 32 12 ]
+        %tmp.69 = "engine";
+        symbol [ view ? 32 12 16 ];
+        putv self :view %tmp.69;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 33 12 ]
+        %tmp.70 = "data";
+        symbol [ comType ? 33 12 19 ];
+        putv self :comType %tmp.70;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 34 12 ]
+        symbol [ req %tmp.72 34 12 15 ];
+        %tmp.72 = getv ? :req;
+        symbol [ makeRequest %tmp.73 34 16 27 ];
+        %tmp.73 = getv function %tmp.72 :makeRequest;
+        %tmp.74 = "engine";
+        invoke %tmp.72 %tmp.73(%tmp.74);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 35 12 ]
+        symbol [ WatchUi %tmp.75 35 12 19 ];
+        %tmp.75 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.76 35 20 28 ];
+        %tmp.76 = getv function %tmp.75 :pushView;
+        symbol [ engineView %tmp.80 35 33 43 ];
+        %tmp.80 = getv ? :engineView;
+        %tmp.77 = newc %tmp.80 ();
+        symbol [ genericDelegate %tmp.84 35 51 66 ];
+        %tmp.84 = getv ? :genericDelegate;
+        %tmp.81 = newc %tmp.84 ();
+        symbol [ WatchUi %tmp.85 35 70 77 ];
+        %tmp.85 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.86 35 78 86 ];
+        %tmp.86 = getv %tmp.85 :SLIDE_UP;
+        invoke %tmp.75 %tmp.76(%tmp.77, %tmp.81, %tmp.86);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_34_36_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 37 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_stmt:
+        %tmp.87 = lgetv %item;
+        symbol [ item %tmp.87 37 17 21 ];
+        %tmp.89 = const :water;
+        symbol [ water %tmp.89 37 26 31 const ];
+        %tmp.90 = eq %tmp.87 %tmp.89;
+        bf %tmp.90 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_33_42_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 38 12 ]
+        %tmp.91 = "water";
+        symbol [ view ? 38 12 16 ];
+        putv self :view %tmp.91;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 39 12 ]
+        %tmp.92 = "data";
+        symbol [ comType ? 39 12 19 ];
+        putv self :comType %tmp.92;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 40 12 ]
+        symbol [ req %tmp.94 40 12 15 ];
+        %tmp.94 = getv ? :req;
+        symbol [ makeRequest %tmp.95 40 16 27 ];
+        %tmp.95 = getv function %tmp.94 :makeRequest;
+        %tmp.96 = "water";
+        invoke %tmp.94 %tmp.95(%tmp.96);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 41 12 ]
+        symbol [ WatchUi %tmp.97 41 12 19 ];
+        %tmp.97 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.98 41 20 28 ];
+        %tmp.98 = getv function %tmp.97 :pushView;
+        symbol [ waterView %tmp.102 41 33 42 ];
+        %tmp.102 = getv ? :waterView;
+        %tmp.99 = newc %tmp.102 ();
+        symbol [ genericDelegate %tmp.106 41 50 65 ];
+        %tmp.106 = getv ? :genericDelegate;
+        %tmp.103 = newc %tmp.106 ();
+        symbol [ WatchUi %tmp.107 41 69 76 ];
+        %tmp.107 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.108 41 77 85 ];
+        %tmp.108 = getv %tmp.107 :SLIDE_UP;
+        invoke %tmp.97 %tmp.98(%tmp.99, %tmp.103, %tmp.108);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_33_42_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 43 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_stmt:
+        %tmp.109 = lgetv %item;
+        symbol [ item %tmp.109 43 17 21 ];
+        %tmp.111 = const :GPS;
+        symbol [ GPS %tmp.111 43 26 29 const ];
+        %tmp.112 = eq %tmp.109 %tmp.111;
+        bf %tmp.112 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_31_46_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 44 12 ]
+        %tmp.113 = "GPS";
+        symbol [ view ? 44 12 16 ];
+        putv self :view %tmp.113;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 45 12 ]
+        symbol [ WatchUi %tmp.114 45 12 19 ];
+        %tmp.114 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.115 45 20 28 ];
+        %tmp.115 = getv function %tmp.114 :pushView;
+        symbol [ GPSView %tmp.119 45 33 40 ];
+        %tmp.119 = getv ? :GPSView;
+        %tmp.116 = newc %tmp.119 ();
+        symbol [ genericDelegate %tmp.123 45 48 63 ];
+        %tmp.123 = getv ? :genericDelegate;
+        %tmp.120 = newc %tmp.123 ();
+        symbol [ WatchUi %tmp.124 45 67 74 ];
+        %tmp.124 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.125 45 75 83 ];
+        %tmp.125 = getv %tmp.124 :SLIDE_UP;
+        invoke %tmp.114 %tmp.115(%tmp.116, %tmp.120, %tmp.125);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_31_46_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 47 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_stmt:
+        %tmp.126 = lgetv %item;
+        symbol [ item %tmp.126 47 17 21 ];
+        %tmp.128 = const :Setup;
+        symbol [ Setup %tmp.128 47 26 31 const ];
+        %tmp.129 = eq %tmp.126 %tmp.128;
+        bf %tmp.129 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_false;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_33_50_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 48 12 ]
+        %tmp.130 = "setup";
+        symbol [ view ? 48 12 16 ];
+        putv self :view %tmp.130;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 49 12 ]
+        symbol [ WatchUi %tmp.131 49 12 19 ];
+        %tmp.131 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.132 49 20 28 ];
+        %tmp.132 = getv function %tmp.131 :pushView;
+        symbol [ SetupView %tmp.136 49 33 42 ];
+        %tmp.136 = getv ? :SetupView;
+        %tmp.133 = newc %tmp.136 ();
+        symbol [ SetupDelegate %tmp.140 49 50 63 ];
+        %tmp.140 = getv ? :SetupDelegate;
+        %tmp.137 = newc %tmp.140 ();
+        symbol [ WatchUi %tmp.141 49 67 74 ];
+        %tmp.141 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.142 49 75 83 ];
+        %tmp.142 = getv %tmp.141 :SLIDE_UP;
+        invoke %tmp.131 %tmp.132(%tmp.133, %tmp.137, %tmp.142);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_33_50_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_false:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 51 13 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_13_54_8_if_stmt:
+        %tmp.143 = lgetv %item;
+        symbol [ item %tmp.143 51 17 21 ];
+        %tmp.145 = const :Version;
+        symbol [ Version %tmp.145 51 26 33 const ];
+        %tmp.146 = eq %tmp.143 %tmp.145;
+        bf %tmp.146 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_13_54_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_35_54_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 52 12 ]
+        %tmp.147 = "version";
+        symbol [ view ? 52 12 16 ];
+        putv self :view %tmp.147;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc" 53 12 ]
+        symbol [ WatchUi %tmp.148 53 12 19 ];
+        %tmp.148 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.149 53 20 28 ];
+        %tmp.149 = getv function %tmp.148 :pushView;
+        symbol [ VersionView %tmp.153 53 33 44 ];
+        %tmp.153 = getv ? :VersionView;
+        %tmp.150 = newc %tmp.153 ();
+        symbol [ genericDelegate %tmp.157 53 52 67 ];
+        %tmp.157 = getv ? :genericDelegate;
+        %tmp.154 = newc %tmp.157 ();
+        symbol [ WatchUi %tmp.158 53 71 78 ];
+        %tmp.158 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.159 53 79 87 ];
+        %tmp.159 = getv %tmp.158 :SLIDE_UP;
+        invoke %tmp.148 %tmp.149(%tmp.150, %tmp.154, %tmp.159);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_35_54_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_13_54_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_51_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_47_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_43_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_37_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_31_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_25_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_19_13_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_15_8_54_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_PypilotcommandMenuDelegate_mc_13_38_55_4_stop:
+    }
+}
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/PypilotcommandMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

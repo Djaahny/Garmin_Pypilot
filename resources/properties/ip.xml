@@ -1,0 +1,8 @@
+<resources>
+    <properties>
+        <property id="IPSeg1" type="number">192</property>
+        <property id="IPSeg2" type="number">168</property>
+        <property id="IPSeg3" type="number">1</property>
+        <property id="IPSeg4" type="number">103</property>
+    </properties>
+</resources>

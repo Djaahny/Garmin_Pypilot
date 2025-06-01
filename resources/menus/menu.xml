@@ -1,0 +1,10 @@
+<menu id="MainMenu" title="Pypilot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <menu-item id="autopilot" label="Autopilot" />
+    <menu-item id="speed" label="Speed info" />
+    <menu-item id="wind" label="Wind info" />
+    <menu-item id="engine" label="Engine" />
+    <menu-item id="water" label="Water" />
+    <menu-item id="GPS" label="GPS time" />
+    <menu-item id="Setup" label="Setup" />
+    <menu-item id="Version" label="About" />
+</menu>

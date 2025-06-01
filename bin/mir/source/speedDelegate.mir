@@ -1,0 +1,166 @@
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Timer,3,14,19]; ]
+import Toybox.Timer;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 7; @symbol_classdef = [speedDelegate,7,6,19]; @symbol_extends<0> = [WatchUi,7,28,35]; @symbol_extends<1> = [BehaviorDelegate,7,36,52]; ]
+class speedDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 7; ]
+    <init> {
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 9 4 ]
+        symbol [ Timer %tmp.3 9 18 23 ];
+        %tmp.3 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.4 9 24 29 ];
+        %tmp.4 = getv function ? %tmp.3 :Timer;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :myTimer %tmp.1;
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 9; @position = 4; @symbol_vardef = [myTimer,9,4,11]; ]
+    var myTimer;
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 11; @symbol_functiondef = [timerCallback,11,13,26]; ]
+    function timerCallback() {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_11_29_20_0_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 12 8 ]
+        symbol [ myCount %tmp.1 12 8 15 ];
+        %tmp.1 = getv self :myCount;
+        %tmp.2 = 1;
+        %tmp.3 = add %tmp.1 %tmp.2;
+        symbol [ myCount ? 12 8 15 ];
+        putv self :myCount dup %tmp.3;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 13 8 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_8_16_8_if_stmt:
+        symbol [ myCount %tmp.5 13 12 19 ];
+        %tmp.5 = getv ? :myCount;
+        %tmp.6 = 10;
+        %tmp.7 = gt %tmp.5 %tmp.6;
+        bf %tmp.7 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_8_16_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_8_16_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_26_16_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 14 12 ]
+        symbol [ myTimer %tmp.9 14 12 19 ];
+        %tmp.9 = getv ? :myTimer;
+        symbol [ stop %tmp.10 14 20 24 ];
+        %tmp.10 = getv function %tmp.9 :stop;
+        invoke %tmp.9 %tmp.10();
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 15 12 ]
+        %tmp.11 = 0;
+        symbol [ myCount ? 15 12 19 ];
+        putv self :myCount %tmp.11;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_26_16_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_8_16_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_13_8_16_8_if_end:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 17 8 ]
+        %tmp.12 = "data";
+        symbol [ comType ? 17 8 15 ];
+        putv self :comType %tmp.12;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 18 8 ]
+        symbol [ req %tmp.14 18 8 11 ];
+        %tmp.14 = getv ? :req;
+        symbol [ makeRequest %tmp.15 18 12 23 ];
+        %tmp.15 = getv function %tmp.14 :makeRequest;
+        %tmp.16 = "speed";
+        invoke %tmp.14 %tmp.15(%tmp.16);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_11_29_20_0_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 22; @symbol_functiondef = [initialize,22,13,23]; ]
+    function initialize() as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_22_26_24_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 23 8 ]
+        symbol [ BehaviorDelegate %tmp.2 23 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 23 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_22_26_24_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 26; @symbol_functiondef = [onMenu,26,13,19]; @symbol_return<0> = [Boolean,26,25,32]; ]
+    function onMenu() as Boolean {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_26_33_30_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 27 8 ]
+        symbol [ myTimer %tmp.2 27 8 15 ];
+        %tmp.2 = getv ? :myTimer;
+        symbol [ stop %tmp.3 27 16 20 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 28 8 ]
+        symbol [ WatchUi %tmp.4 28 8 15 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.5 28 16 24 ];
+        %tmp.5 = getv function %tmp.4 :pushView;
+        symbol [ Rez %tmp.9 28 29 32 ];
+        %tmp.9 = getv ? :Rez;
+        symbol [ Menus %tmp.10 28 33 38 ];
+        %tmp.10 = getv %tmp.9 :Menus;
+        symbol [ MainMenu %tmp.11 28 39 47 ];
+        %tmp.11 = getv function ? %tmp.10 :MainMenu;
+        %tmp.6 = newc %tmp.11 ();
+        symbol [ PypilotcommandMenuDelegate %tmp.15 28 55 81 ];
+        %tmp.15 = getv ? :PypilotcommandMenuDelegate;
+        %tmp.12 = newc %tmp.15 ();
+        symbol [ WatchUi %tmp.16 28 85 92 ];
+        %tmp.16 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.17 28 93 101 ];
+        %tmp.17 = getv %tmp.16 :SLIDE_UP;
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.12, %tmp.17);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 29 8 ]
+        %tmp.18 = true;
+        ret %tmp.18;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_26_33_30_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 32; @symbol_functiondef = [onKey,32,13,18]; @symbol_param<0> = [keyEvent,32,19,27]; @symbol_param<0>_type<0> = [KeyEvent,32,31,39]; @symbol_return<0> = [Boolean,32,44,51]; ]
+    function onKey(keyEvent as KeyEvent) as Boolean {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_32_52_45_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 33 4 ]
+        symbol [ System %tmp.2 33 4 10 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 33 11 18 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.4 33 19 27 ];
+        symbol [ getKey %tmp.5 33 28 34 ];
+        %tmp.5 = getv function %tmp.4 :getKey;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        invoke %tmp.2 %tmp.3(%tmp.6);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 41 4 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_4_43_4_if_stmt:
+        %tmp.7 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.7 41 8 16 ];
+        symbol [ getKey %tmp.8 41 17 23 ];
+        %tmp.8 = getv function %tmp.7 :getKey;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = 5;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_4_43_4_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_4_43_4_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_30_43_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 42 8 ]
+        symbol [ myTimer %tmp.13 42 8 15 ];
+        %tmp.13 = getv ? :myTimer;
+        symbol [ start %tmp.14 42 16 21 ];
+        %tmp.14 = getv function %tmp.13 :start;
+        %tmp.15 = self;
+        symbol [ method %tmp.16 42 22 28 ];
+        %tmp.16 = getv function %tmp.15 :method;
+        %tmp.18 = const :timerCallback;
+        symbol [ timerCallback %tmp.18 42 30 43 const ];
+        %tmp.19 = invoke %tmp.15 %tmp.16(%tmp.18);
+        %tmp.20 = 1000;
+        %tmp.21 = true;
+        invoke %tmp.13 %tmp.14(%tmp.19, %tmp.20, %tmp.21);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_30_43_4_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_4_43_4_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_41_4_43_4_if_end:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc" 44 4 ]
+        %tmp.22 = true;
+        ret %tmp.22;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_speedDelegate_mc_32_52_45_4_stop:
+    }
+}
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/speedDelegate.mc"; @line = 1; ]
+<init> {
+}

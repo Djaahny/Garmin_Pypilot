@@ -1,0 +1,120 @@
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 5; @symbol_classdef = [webReturnView,5,6,19]; @symbol_extends<0> = [WatchUi,5,28,35]; @symbol_extends<1> = [View,5,36,40]; ]
+class webReturnView extends WatchUi.View {
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 7; @position = 15; @symbol_vardef = [_message,7,15,23]; ]
+    protected
+    var _message;
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 10; @symbol_functiondef = [initialize,10,13,23]; @symbol_param<0> = [message,10,24,31]; ]
+    function initialize(message) as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_10_33_14_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 11 8 ]
+        symbol [ View %tmp.2 11 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 11 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 12 8 ]
+        %tmp.4 = lgetv %message;
+        symbol [ message %tmp.4 12 19 26 ];
+        symbol [ _message ? 12 8 16 ];
+        putv self :_message %tmp.4;
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 13 8 ]
+        symbol [ System %tmp.5 13 8 14 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ println %tmp.6 13 15 22 ];
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = lgetv %message;
+        symbol [ message %tmp.7 13 23 30 ];
+        invoke %tmp.5 %tmp.6(%tmp.7);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_10_33_14_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 17; @symbol_functiondef = [onLayout,17,13,21]; @symbol_param<0> = [dc,17,22,24]; @symbol_param<0>_type<0> = [Dc,17,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_17_40_24_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 18 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 18 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 18 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 18 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ SpeedLayout %tmp.6 18 30 41 ];
+        %tmp.6 = getv function %tmp.5 :SpeedLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 18 42 44 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 19 8 ]
+        [ "_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_17_40_24_4_start" "_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_17_40_24_4_stop" ]
+        %label.1 = local;
+        symbol [ label %label.1 19 12 17 ];
+        symbol [ View %tmp.10 19 20 24 ];
+        %tmp.10 = getv ? :View;
+        symbol [ findDrawableById %tmp.11 19 25 41 ];
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "webrtn";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = as %tmp.13 WatchUi.Text;
+        symbol [ WatchUi %tmp.14 19 55 62 ];
+        symbol [ Text %tmp.14 19 63 67 ];
+        lputv %label.1 %tmp.14;
+        symbol [ label %label.1 19 12 17 ];
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 20 8 ]
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_8_22_8_if_stmt:
+        %tmp.15 = lgetv %label.1;
+        symbol [ label %tmp.15 20 12 17 ];
+        %tmp.16 = null;
+        %tmp.17 = ne %tmp.15 %tmp.16;
+        bf %tmp.17 @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_8_22_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_8_22_8_if_true:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_27_22_8_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 21 12 ]
+        %tmp.18 = lgetv %label.1;
+        symbol [ label %tmp.18 21 12 17 ];
+        %tmp.19 = as %tmp.18 { (!Null) };
+        symbol [ setText %tmp.20 21 18 25 ];
+        %tmp.20 = getv function %tmp.19 :setText;
+        symbol [ _message %tmp.22 21 26 34 ];
+        %tmp.22 = getv ? :_message;
+        invoke %tmp.19 %tmp.20(%tmp.22);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_27_22_8_stop:
+        goto @_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_8_22_8_if_end;
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_20_8_22_8_if_end:
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_17_40_24_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 29; @symbol_functiondef = [onShow,29,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 33; @symbol_functiondef = [onUpdate,33,13,21]; @symbol_param<0> = [dc,33,22,24]; @symbol_param<0>_type<0> = [Dc,33,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_33_40_38_4_start:
+[ "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc" 35 8 ]
+        symbol [ View %tmp.2 35 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 35 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 35 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+_Users_morten_Documents_garmin_watch_Pypilot_command_Pypilotcommand_source_webReturn_mc_33_40_38_4_stop:
+    }
+    [ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 43; @symbol_functiondef = [onHide,43,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/morten/Documents/garmin watch/Pypilot_command/Pypilotcommand/source/webReturn.mc"; @line = 1; ]
+<init> {
+}

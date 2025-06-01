@@ -1,0 +1,11 @@
+<layout id="SetupLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <label x="center" y="5" text="IP:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    
+    <label id="seg1" x="50" y="100" text="000" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="seg2" x="100" y="100" text="000" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="seg3" x="150" y="100" text="000" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="seg4" x="200" y="100" text="000" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+
+    <!--<bitmap id="id_monkey" x="center" y="100" filename="../drawables/monkey.png" />-->
+</layout>
+

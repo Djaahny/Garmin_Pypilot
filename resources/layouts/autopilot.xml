@@ -1,0 +1,13 @@
+<layout id="MainLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <label x="center" y="5" text="Autopilot" font="Graphics.FONT_LARGE" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label x="center" y="50" text="Status: " font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="autopilot" x="center" y="100" text="..." font="Graphics.FONT_LARGE" color="Graphics.COLOR_RED" background ="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+
+    <label x="50" y="150" text="HDG: " font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="hdg" x="55" y="175" text="333" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+
+    <label x="200" y="150" text="ERROR:" font="Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="hdgDiff" x="200" y="175" text="54" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_RIGHT" />
+
+</layout>
+
