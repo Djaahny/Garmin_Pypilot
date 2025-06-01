@@ -2,8 +2,10 @@
 The watch app is done and compiles with ConncetIQ 5.1.0.
 It communicates with BLE to a paired phone, and from there to a flask serverside agent that helps redistribute data.
 The server-side is not written yet, but there is a small test server that can demo the watch app.
-Have fun - the server-side part to come.
-True Spagetticoding!
+Have fun - the server-side part is to come. Once it's done, I'll try to publish it on the Garmin page. 
+Until then, it can be sideloaded via USB cable to the watch.
+
+True Spaghetti Coding INC.!
 
 
 
