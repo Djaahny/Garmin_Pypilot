@@ -12,10 +12,11 @@ Start the app and it shows the Autopilot status<be>
 down button - turns AP on in all views<be>
 up button - turns AP off in all views<be>
 hold the up button (menu) to select different views<br>
-goto setup and set the IP address (start button next segment - up/down increase number - auto save when leaving the setup screen)<br>
+goto setup and set the IP address (start button next segment - up/down increase number - auto save when leaving the setup screen)<be>
 
 
 
+<h3>notes!</h3>
 The structure of the program should be as following.
 
 When stating - just stat by showing if the Pilot is on or off - if on show set course and course diff
